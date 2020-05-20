@@ -1,0 +1,2842 @@
+/* line 18, app/assets/stylesheets/eshop.css.scss */
+.price-free {
+  color: green;
+}
+
+/* line 22, app/assets/stylesheets/eshop.css.scss */
+.control-group.error .help-inline {
+  color: #DA1E48;
+}
+
+/* line 26, app/assets/stylesheets/eshop.css.scss */
+.control-group.error .checkbox,
+.control-group.error .radio,
+.control-group.error input,
+.control-group.error select,
+.control-group.error textarea {
+  border-color: #DA1E48;
+}
+
+/* line 34, app/assets/stylesheets/eshop.css.scss */
+.help-block,
+.control-group.error .help-block {
+  color: #7E7E7E;
+  width: 220px;
+}
+
+/* line 41, app/assets/stylesheets/eshop.css.scss */
+a.close {
+  color: #000;
+}
+
+/* line 44, app/assets/stylesheets/eshop.css.scss */
+a.close:hover {
+  color: #000;
+}
+
+/* line 48, app/assets/stylesheets/eshop.css.scss */
+.bellindaForYou {
+  text-align: right;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #3C22E6;
+}
+
+/* line 55, app/assets/stylesheets/eshop.css.scss */
+.cart-fa-nav {
+  margin: 10px 0px 10px;
+}
+
+/* line 57, app/assets/stylesheets/eshop.css.scss */
+.cart-fa-nav ul {
+  list-style-type: none;
+  height: 44px;
+  width: 100%;
+  margin: 0;
+}
+
+/* line 63, app/assets/stylesheets/eshop.css.scss */
+.cart-fa-nav ul li {
+  float: left;
+  display: block;
+  background: #ECECEC;
+}
+
+/* line 72, app/assets/stylesheets/eshop.css.scss */
+.cart-fa-nav ul li.arrow {
+  background: none;
+  padding: 11px 14px 15px;
+  height: 13px;
+}
+
+/* line 76, app/assets/stylesheets/eshop.css.scss */
+.cart-fa-nav ul li.arrow img {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 81, app/assets/stylesheets/eshop.css.scss */
+.cart-fa-nav ul li a {
+  padding: 9px 12px;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  color: #DA1E48;
+}
+
+/* line 92, app/assets/stylesheets/eshop.css.scss */
+.cart-fa-nav ul li a:hover i {
+  color: #DA1E48;
+}
+
+/* line 99, app/assets/stylesheets/eshop.css.scss */
+.cart-fa-nav ul li i {
+  color: #fff;
+  margin-right: 5px;
+}
+
+/* line 103, app/assets/stylesheets/eshop.css.scss */
+.cart-fa-nav ul li.active i {
+  color: #DA1E48;
+}
+
+/* line 108, app/assets/stylesheets/eshop.css.scss */
+a.cart-next-link,
+a.cart-back-link {
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 159px;
+  height: 44px;
+  line-height: 44px;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* line 122, app/assets/stylesheets/eshop.css.scss */
+a.cart-next-link img,
+a.cart-back-link img {
+  margin: 12px 0px 16px;
+}
+
+/* line 126, app/assets/stylesheets/eshop.css.scss */
+a.cart-next-link {
+  background: #DA1D47;
+  float: right;
+  text-align: right;
+  padding-right: 10px;
+}
+
+/* line 132, app/assets/stylesheets/eshop.css.scss */
+a.cart-back-link {
+  background: #B7B7B7;
+  text-align: left;
+  padding-left: 10px;
+}
+
+/* line 137, app/assets/stylesheets/eshop.css.scss */
+a.cart-next-link:hover,
+a.cart-back-link:hover {
+  color: #FFFFFF;
+}
+
+/* line 141, app/assets/stylesheets/eshop.css.scss */
+input.cart-next-link {
+  background-color: #DA1D47;
+  padding: 0;
+  margin: 0;
+  width: 159px;
+  height: 44px;
+  line-height: 44px;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* line 154, app/assets/stylesheets/eshop.css.scss */
+.iconc {
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 0px 10px 0px 0px;
+  border: 1px solid #ccc;
+}
+
+/* line 163, app/assets/stylesheets/eshop.css.scss */
+.iconc span {
+  display: block;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 169, app/assets/stylesheets/eshop.css.scss */
+.iconc img {
+  width: 30px;
+  height: 30px;
+}
+
+/* line 178, app/assets/stylesheets/eshop.css.scss */
+.table-cart {
+  margin: 13px 0px 0px;
+}
+
+/* line 180, app/assets/stylesheets/eshop.css.scss */
+.table-cart .icon-remove {
+  color: #D4D4D4;
+}
+
+/* line 183, app/assets/stylesheets/eshop.css.scss */
+.table-cart .icon-remove:hover {
+  color: #7E7E7E;
+}
+
+/* line 186, app/assets/stylesheets/eshop.css.scss */
+.table-cart .color-link-active {
+  border-color: #DA1E48;
+}
+
+/* line 191, app/assets/stylesheets/eshop.css.scss */
+.table-cart tr {
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+}
+
+/* line 196, app/assets/stylesheets/eshop.css.scss */
+.table-cart .cart-quantity {
+  width: 40px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 202, app/assets/stylesheets/eshop.css.scss */
+.table-cart .button_to {
+  margin: 0;
+}
+
+/* line 206, app/assets/stylesheets/eshop.css.scss */
+.table-cart tr th {
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+}
+
+/* line 211, app/assets/stylesheets/eshop.css.scss */
+.cart-amount {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8px 0px 35px;
+}
+
+/* line 218, app/assets/stylesheets/eshop.css.scss */
+.cart-credit {
+  text-align: right;
+  font-size: 13px;
+  margin: 8px 0px 35px;
+}
+
+/* line 223, app/assets/stylesheets/eshop.css.scss */
+.cart-credit input {
+  width: 40px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 230, app/assets/stylesheets/eshop.css.scss */
+#voucher-code-bonus,
+#global-voucher-code-bonus,
+#credit-bonus,
+#valentyn-bonus {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+/* line 237, app/assets/stylesheets/eshop.css.scss */
+#voucher-code-bonus form,
+#global-voucher-code-bonus form,
+#credit-bonus form,
+#valentyn-bonus form {
+  margin: 0;
+}
+
+/* line 243, app/assets/stylesheets/eshop.css.scss */
+.cart-voucher-code-text,
+.cart-voucher-code-pass {
+  font-size: 13px;
+  /*margin: 5px 8px 35px 140px;*/
+  margin: 3px 5px 0px 0px;
+  /*width: 120px;*/
+  float: right;
+}
+
+/* line 252, app/assets/stylesheets/eshop.css.scss */
+.cart-voucher-code-pass {
+  margin-left: 10px;
+}
+
+/* line 256, app/assets/stylesheets/eshop.css.scss */
+input.cart-voucher-code-input {
+  text-align: center;
+  font-size: 13px;
+  margin: 0px;
+  width: 100px;
+  float: right;
+  /*input {
+		width: 120px;
+		margin: 0;
+		text-align: center;
+	}*/
+}
+
+/* line 269, app/assets/stylesheets/eshop.css.scss */
+input.cart-voucher-pass-input {
+  text-align: center;
+  font-size: 13px;
+  margin: 0px;
+  width: 100px;
+  float: right;
+  /*input {
+		width: 120px;
+		margin: 0;
+		text-align: center;
+	}*/
+}
+
+/* line 287, app/assets/stylesheets/eshop.css.scss */
+#voucher-code-bonus #add-to-cart-link .add-to-card-btn,
+#global-voucher-code-bonus #add-to-cart-link .add-to-card-btn,
+#credit-bonus #add-to-cart-link .add-to-card-btn,
+#valentyn-bonus #add-to-cart-link .add-to-card-btn {
+  background-color: #DA1E48;
+  color: white;
+  font-family: 'Open sans';
+  font-weight: 400;
+  font-size: 13px;
+  padding: 0px;
+  text-align: center;
+  padding-left: 0px;
+  border: 0;
+  display: block;
+  width: 90px;
+  height: 28px;
+  line-height: 28px;
+  margin: 0px 0px 0px 10px;
+}
+
+/* line 310, app/assets/stylesheets/eshop.css.scss */
+.hu #voucher-code-bonus #add-to-cart-link .add-to-card-btn,
+.hu #global-voucher-code-bonus #add-to-cart-link .add-to-card-btn,
+.hu #credit-bonus #add-to-cart-link .add-to-card-btn {
+  width: 120px;
+}
+
+/*.cart-voucher-code-input {
+	float: left;
+}*/
+/* line 320, app/assets/stylesheets/eshop.css.scss */
+#add-to-cart-link {
+  float: right;
+}
+
+/* line 322, app/assets/stylesheets/eshop.css.scss */
+#add-to-cart-link .add-to-card-btn {
+  background-color: #DA1E48;
+  color: white;
+  font-family: 'Open sans';
+  font-weight: 400;
+  /*font-size: 13px;*/
+  padding: 0px;
+  text-align: center;
+  padding-left: 42px;
+  border: 0;
+  display: block;
+  /*width: 126px;*/
+  /*height: 28px;
+		line-height: 28px;		*/
+  /*margin: 0px 0px 0px 10px;*/
+}
+
+/* line 340, app/assets/stylesheets/eshop.css.scss */
+.cart-nav {
+  width: 100%;
+  text-align: right;
+}
+
+/* line 343, app/assets/stylesheets/eshop.css.scss */
+.cart-nav p {
+  width: 50%;
+  height: 44px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* line 351, app/assets/stylesheets/eshop.css.scss */
+.cart-nav p.next {
+  text-align: right;
+}
+
+/* line 353, app/assets/stylesheets/eshop.css.scss */
+.cart-nav p.next input {
+  background: url("btnf-arrow-right4-1e884d8798e78fd3cc57a101c441ff0491bce1d35a9208e5081db3b2d85b2ad8.png") #DA1E48 center right no-repeat;
+  padding-right: 10px;
+  font-family: 'Open sans', Arial, Helvetica, sans-serif;
+  width: 169px;
+}
+
+/* line 360, app/assets/stylesheets/eshop.css.scss */
+.cart-nav p.next-finish a {
+  padding: 0;
+  text-align: center;
+}
+
+/* line 364, app/assets/stylesheets/eshop.css.scss */
+.cart-nav p.back {
+  text-align: left;
+}
+
+/* line 368, app/assets/stylesheets/eshop.css.scss */
+form {
+  display: block;
+  margin: 0 0 18px;
+}
+
+/* line 375, app/assets/stylesheets/eshop.css.scss */
+.cart-transport-types .error,
+.cart-payment-types .error {
+  color: #DA1E48;
+}
+
+/* line 384, app/assets/stylesheets/eshop.css.scss */
+.cart-transport,
+.cart-payment {
+  position: relative;
+  width: 100%;
+}
+
+/* line 388, app/assets/stylesheets/eshop.css.scss */
+.cart-transport .error,
+.cart-payment .error {
+  color: #DA1E48;
+}
+
+/* line 392, app/assets/stylesheets/eshop.css.scss */
+.cart-transport {
+  height: 180px;
+}
+
+/* line 395, app/assets/stylesheets/eshop.css.scss */
+.cart-payment {
+  height: 300px;
+}
+
+/*************************
+ ****     TAB 3       ****
+ *************************/
+/*#tab3 .cart-transport {
+	width: 420px;
+	height: 840px;
+	margin: 23px 80px 0px 0px;
+	float: left;
+	.cart-transport-types {
+		width: 100%;
+		.payu-style {
+			width: 100%;
+		}
+	}
+	.cart-transport-title {
+		margin-bottom: 28px;
+	}
+}
+
+.sgray {
+	color: #B7B7B7;
+	font-size: 11px;
+	line-height: 11px;
+}
+
+#tab3 .cart-payment {
+	width: 420px;
+	float: left;
+	height: 1000px;
+	margin-top: 23px;
+	.cart-payment-title {
+		width: 420px;
+	}
+	.cart-payment-types {
+		width: 100%;
+		float: none;
+	}
+}*/
+/*********************/
+/****    TAB 3    ****/
+/*********************/
+/* line 445, app/assets/stylesheets/eshop.css.scss */
+#tab3 {
+  float: left;
+}
+
+/* line 447, app/assets/stylesheets/eshop.css.scss */
+#tab3 .cart-transport {
+  height: 100%;
+  float: left;
+  border: 0;
+}
+
+/* line 452, app/assets/stylesheets/eshop.css.scss */
+#tab3 .cart-payment {
+  float: left;
+  height: 100%;
+}
+
+/* line 456, app/assets/stylesheets/eshop.css.scss */
+#tab3 .cart-payment-types table.payu-style {
+  width: 420px;
+  margin: 18px 80px 0px 0px;
+  float: left;
+}
+
+/* line 461, app/assets/stylesheets/eshop.css.scss */
+#tab3 .payu-style {
+  border: 1px solid #CCC;
+  width: 976px;
+  height: 100%;
+  font-size: 12px;
+  background-color: #FFF;
+  float: left;
+  margin: 0;
+}
+
+/* line 469, app/assets/stylesheets/eshop.css.scss */
+#tab3 .payu-style .region_select {
+  margin: 30px 0px;
+  width: 978px;
+  font-weight: bold;
+  text-align: center;
+  height: 28px;
+  line-height: 28px;
+}
+
+/* line 476, app/assets/stylesheets/eshop.css.scss */
+#tab3 .payu-style .region_select #region {
+  margin-bottom: 0;
+}
+
+/* line 480, app/assets/stylesheets/eshop.css.scss */
+#tab3 .payu-style .shop_place {
+  width: 319px;
+  height: 80px;
+  float: left;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #F2F2F2;
+  padding: 10px 3px 0px;
+}
+
+/* line 488, app/assets/stylesheets/eshop.css.scss */
+#tab3 .payu-style .shop_place input {
+  width: auto;
+  float: none;
+  margin: 0px 0px 0px 20px;
+}
+
+/* line 494, app/assets/stylesheets/eshop.css.scss */
+#tab3 .payu-style div.rb {
+  width: 60px;
+  line-height: 54px;
+  float: left;
+}
+
+/* line 499, app/assets/stylesheets/eshop.css.scss */
+#tab3 .payu-style div.text {
+  width: 250px;
+  padding-top: 0px;
+  float: left;
+}
+
+/* line 504, app/assets/stylesheets/eshop.css.scss */
+#tab3 .payu-style div.text .sgray {
+  font-size: 12px;
+  line-height: 12px;
+  color: #B7B7B7;
+  /*line-height: 6px;*/
+}
+
+/* line 518, app/assets/stylesheets/eshop.css.scss */
+.hu #tab3 .payu-style div.rb {
+  width: 55px;
+}
+
+/* line 521, app/assets/stylesheets/eshop.css.scss */
+.hu #tab3 .payu-style div.text {
+  width: 255px;
+}
+
+/* line 529, app/assets/stylesheets/eshop.css.scss */
+.cart-transport-title,
+.cart-payment-title {
+  width: 100%;
+  height: 16px;
+  margin-bottom: 10px;
+}
+
+/* line 535, app/assets/stylesheets/eshop.css.scss */
+.cart-transport-title i,
+.cart-payment-title i {
+  margin-right: 10px;
+}
+
+/* line 546, app/assets/stylesheets/eshop.css.scss */
+.cart-transport-text,
+.cart-payment-text {
+  width: 40%;
+  float: left;
+}
+
+/* line 552, app/assets/stylesheets/eshop.css.scss */
+.cart-transport-types,
+.cart-payment-types {
+  width: 60%;
+  float: left;
+}
+
+/* line 556, app/assets/stylesheets/eshop.css.scss */
+.cart-transport-types input,
+.cart-payment-types input {
+  float: left;
+  margin: 2px 8px 0px 0px;
+}
+
+/* line 560, app/assets/stylesheets/eshop.css.scss */
+.cart-transport-types .field_with_errors,
+.cart-payment-types .field_with_errors {
+  width: 12px;
+  margin-right: 8px;
+  float: left;
+}
+
+/* line 565, app/assets/stylesheets/eshop.css.scss */
+.cart-transport-types .clear,
+.cart-payment-types .clear {
+  height: 2px;
+  margin: 0;
+}
+
+/* line 571, app/assets/stylesheets/eshop.css.scss */
+#page .cart-lc,
+#page .cart-rc {
+  width: 485px;
+  float: left;
+  text-align: center;
+}
+
+/* line 576, app/assets/stylesheets/eshop.css.scss */
+#page .cart-lc h1,
+#page .cart-rc h1 {
+  text-align: center;
+}
+
+/* line 580, app/assets/stylesheets/eshop.css.scss */
+.cart-lc {
+  margin-right: 8px;
+}
+
+/* line 585, app/assets/stylesheets/eshop.css.scss */
+.cart-item-pcode {
+  font-size: 10px;
+  line-height: 10px;
+  color: #7E7E7E;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 594, app/assets/stylesheets/eshop.css.scss */
+.ctabs > li {
+  width: 50%;
+}
+
+/* line 598, app/assets/stylesheets/eshop.css.scss */
+.ct-dp > li {
+  width: 33%;
+}
+
+/* line 602, app/assets/stylesheets/eshop.css.scss */
+.hu .ct-dp > li {
+  width: 50%;
+}
+
+/* line 606, app/assets/stylesheets/eshop.css.scss */
+.pl .ct-dp > li {
+  width: 25%;
+}
+
+/* line 611, app/assets/stylesheets/eshop.css.scss */
+.ctabs > li > a {
+  color: #DA1E48;
+  font-size: 16px;
+  margin-right: 0px;
+  text-align: center;
+}
+
+/* line 618, app/assets/stylesheets/eshop.css.scss */
+.ct-dp > li > a {
+  font-size: 14px;
+}
+
+/* line 622, app/assets/stylesheets/eshop.css.scss */
+.ct-dp > li > a {
+  color: #000000;
+}
+
+/* line 627, app/assets/stylesheets/eshop.css.scss */
+.ct-dp > li.active > a {
+  font-weight: bold;
+}
+
+/* line 632, app/assets/stylesheets/eshop.css.scss */
+.ct-dp > li .tab1 img {
+  margin: 1px 10px 1px 0px;
+}
+
+/* line 638, app/assets/stylesheets/eshop.css.scss */
+.ct-dp > li .tab2 img {
+  margin: 0px 10px 0px 0px;
+}
+
+/* line 644, app/assets/stylesheets/eshop.css.scss */
+.pl .ct-dp > li .tab1 img, .pl .ct-dp > li .tab2 img, .pl .ct-dp > li .tab3 img, .pl .ct-dp > li .tab4 img {
+  margin: 0px 10px 0px 0px;
+}
+
+/* line 649, app/assets/stylesheets/eshop.css.scss */
+.tab-content-dp .cart-transport {
+  margin-top: 20px;
+  height: 140px;
+}
+
+/* line 654, app/assets/stylesheets/eshop.css.scss */
+.tab-content-dp .cart-payment {
+  height: 120px;
+}
+
+/* line 658, app/assets/stylesheets/eshop.css.scss */
+.tab-content-dp .cart-transport-types {
+  width: 978px;
+}
+
+/* line 660, app/assets/stylesheets/eshop.css.scss */
+.tab-content-dp .cart-transport-types table {
+  width: 978px;
+  margin: 0;
+}
+
+/* line 667, app/assets/stylesheets/eshop.css.scss */
+.tab-content-dp .cart-payment-types {
+  width: 978px;
+}
+
+/* line 669, app/assets/stylesheets/eshop.css.scss */
+.tab-content-dp .cart-payment-types table.payu-style {
+  width: 978px;
+  margin: 0;
+}
+
+/* line 675, app/assets/stylesheets/eshop.css.scss */
+.tab-content-dp #tab .cart-payment {
+  height: 120px;
+}
+
+/* line 677, app/assets/stylesheets/eshop.css.scss */
+.tab-content-dp #tab .cart-payment .cart-payment-title {
+  margin: 0;
+}
+
+/* line 683, app/assets/stylesheets/eshop.css.scss */
+.tab-content-dp #tab .cart-payment-types table.payu-style, .tab-content-dp #tab2 .cart-payment-types table.payu-style, .tab-content-dp #tab3 .cart-payment-types table.payu-style, .tab-content-dp #tab4 .cart-payment-types table.payu-style {
+  width: 420px;
+  margin: 23px 80px 0px 0px;
+  float: left;
+}
+
+/****************************/
+/****        TAB 3       ****/
+/****************************/
+/*.tab-content-dp #tab3 .cart-payment {
+	height: 120px;
+	.cart-payment-title {
+		margin: 0;
+	}
+}*/
+/*.tab-content-dp #tab3 .cart-payment-types {
+	table.payu-style {
+		width: 420px;
+		margin: 23px 80px 0px 0px;
+		float: left;
+	}
+}*/
+/* line 712, app/assets/stylesheets/eshop.css.scss */
+.tab-content-dp #tab3 .cart-transport-types {
+  width: 978px;
+  margin-bottom: 50px;
+}
+
+/* line 715, app/assets/stylesheets/eshop.css.scss */
+.tab-content-dp #tab3 .cart-transport-types table {
+  width: 978px;
+  margin: 0;
+}
+
+/* line 726, app/assets/stylesheets/eshop.css.scss */
+.tab-content-dp #tab3 .cart-payment #payu_ .container {
+  /*		margin: 0;
+			width: 100%;*/
+}
+
+/* line 729, app/assets/stylesheets/eshop.css.scss */
+.tab-content-dp #tab3 .cart-payment #payu_ .container .content .table-payu {
+  margin: 0;
+  /*width: 100%;*/
+}
+
+/* line 739, app/assets/stylesheets/eshop.css.scss */
+.cart-payment-types .error {
+  color: #DA1E48;
+  margin-top: 10px;
+}
+
+/* line 747, app/assets/stylesheets/eshop.css.scss */
+.tab-content {
+  overflow: hidden;
+}
+
+/* line 751, app/assets/stylesheets/eshop.css.scss */
+.summary-space {
+  width: 100%;
+  height: 1px;
+  margin: 40px 0px;
+  float: none;
+}
+
+/* line 758, app/assets/stylesheets/eshop.css.scss */
+.summary-col {
+  width: 489px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+/* line 766, app/assets/stylesheets/eshop.css.scss */
+.summary-options {
+  width: 100%;
+  float: left;
+  margin: 20px 0px 60px;
+}
+
+/* line 770, app/assets/stylesheets/eshop.css.scss */
+.summary-options h2 {
+  margin-bottom: 13px;
+}
+
+/* line 774, app/assets/stylesheets/eshop.css.scss */
+.summary-options p {
+  margin: 0;
+}
+
+/****************/
+/*   TOP MENU   */
+/****************/
+/* line 783, app/assets/stylesheets/eshop.css.scss */
+#header-menu ul.menu li.flags,
+#header-top-menu ul.flags-top li.flags {
+  height: auto;
+  width: 30px;
+  margin-top: 30px;
+  padding: 5px 10px 3px;
+}
+
+/* line 790, app/assets/stylesheets/eshop.css.scss */
+#header-menu ul.menu li.flags span.flag-icon,
+#header-top-menu ul.flags-top li.flags span.flag-icon {
+  display: block;
+  float: left;
+  width: 16px;
+  height: 11px;
+  margin: 3px 4px 0px 0px;
+  background-image: url("flags-7927c6621d116230ecb22b4102adb28b7faea77dc78a863ab21b363c32755cfe.png");
+}
+
+/* line 799, app/assets/stylesheets/eshop.css.scss */
+#header-menu ul.menu li.flags i,
+#header-top-menu ul.flags-top li.flags i {
+  float: left;
+}
+
+/* line 804, app/assets/stylesheets/eshop.css.scss */
+#header-top-menu ul.flags-top {
+  padding-top: 8px;
+  margin: 0px 0px 2px 5px;
+  color: #fff;
+}
+
+/* line 810, app/assets/stylesheets/eshop.css.scss */
+#header-top-menu ul.flags-top li.flags {
+  margin-top: 0;
+  padding: 5px 10px 3px 15px;
+  list-style-type: none;
+  height: 17px;
+  line-height: 16px;
+  width: 30px;
+}
+
+/* line 819, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-flags-dd {
+  border: 0;
+  background-color: #DA1D47;
+  min-width: 50px;
+}
+
+/* line 825, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-flags-dd .ui-tooltip-content {
+  background-color: #DA1D47;
+  padding: 10px 0px 5px;
+  width: 100%;
+  /*ul {
+			list-style-type: none;
+			margin: 0;
+			//width: 16px;*/
+  /*}*/
+}
+
+/* line 833, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-flags-dd .ui-tooltip-content li {
+  list-style-type: none;
+  padding: 0px 0px 14px;
+  margin: 0;
+  text-align: center;
+  height: 13px;
+}
+
+/* line 840, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-flags-dd .ui-tooltip-content li a {
+  padding: 4px 0px 0px;
+  display: block;
+  width: 130px;
+  height: 12px;
+  margin: 0px auto;
+  font-size: 11px;
+  line-height: 12px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+/* line 857, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-flags-dd .ui-tooltip-content li a span {
+  margin-right: 10px;
+  border: 1px solid #ffffff;
+  float: left;
+  display: block;
+  width: 16px;
+  height: 11px;
+  background-image: url("flags2-bfd6b6b14e7cb391f362c7052a0ccae333b8181059812e824170a1edb8130860.png");
+  background-repeat: no-repeat;
+}
+
+/* line 874, app/assets/stylesheets/eshop.css.scss */
+.flag-icon-en {
+  background-position: 0px 0px;
+}
+
+/* line 877, app/assets/stylesheets/eshop.css.scss */
+.flag-icon-cz {
+  background-position: 0px -11px;
+}
+
+/* line 880, app/assets/stylesheets/eshop.css.scss */
+.flag-icon-sk {
+  background-position: 0px -22px;
+}
+
+/* line 883, app/assets/stylesheets/eshop.css.scss */
+.flag-icon-pl {
+  background-position: 0px -33px;
+}
+
+/* line 886, app/assets/stylesheets/eshop.css.scss */
+.flag-icon-hu {
+  background-position: 0px -44px;
+}
+
+/* line 889, app/assets/stylesheets/eshop.css.scss */
+.flag-icon-ro {
+  background-position: 0px -55px;
+}
+
+/* line 893, app/assets/stylesheets/eshop.css.scss */
+#header-menu ul.hover-menu {
+  height: 92px;
+  margin-top: 0px;
+}
+
+/* line 897, app/assets/stylesheets/eshop.css.scss */
+#header-menu .hover-menu-e li {
+  height: 65px;
+  margin-top: 15px;
+  padding: 20px 7px 0px;
+}
+
+/* line 901, app/assets/stylesheets/eshop.css.scss */
+#header-menu .hover-menu-e li a {
+  margin-bottom: 0px;
+}
+
+/*****************************/
+/*   DELIVERY INFORMATIONS   */
+/*****************************/
+/* line 915, app/assets/stylesheets/eshop.css.scss */
+.form-wrapper h2 {
+  margin: 40px 0px 20px;
+}
+
+/* line 918, app/assets/stylesheets/eshop.css.scss */
+#delivery-informations .account-flags {
+  margin: 0px 0px 20px;
+}
+
+/* line 922, app/assets/stylesheets/eshop.css.scss */
+#delivery-informations .reminder {
+  margin: 0px 0px 60px;
+}
+
+/* line 924, app/assets/stylesheets/eshop.css.scss */
+#delivery-informations .reminder input {
+  margin: 0px 4px 6px 8px;
+}
+
+/* line 929, app/assets/stylesheets/eshop.css.scss */
+.form-wrapper {
+  padding-left: 250px;
+}
+
+/* line 932, app/assets/stylesheets/eshop.css.scss */
+.form-wrapper .controls {
+  margin-left: 210px;
+}
+
+/* line 935, app/assets/stylesheets/eshop.css.scss */
+.form-wrapper .control-label {
+  width: 200px;
+  padding-right: 10px;
+}
+
+/*********************/
+/*      ACCOUNT      */
+/*********************/
+/* line 944, app/assets/stylesheets/eshop.css.scss */
+.account-tabs > li {
+  width: 33.3%;
+}
+
+/* line 947, app/assets/stylesheets/eshop.css.scss */
+.account-tabs > li.last {
+  width: 33.3%;
+}
+
+/* line 950, app/assets/stylesheets/eshop.css.scss */
+.account-tabs > li > a {
+  color: #DA1E48;
+  font-size: 16px;
+  margin-right: 0px;
+  text-align: center;
+}
+
+/* line 958, app/assets/stylesheets/eshop.css.scss */
+.account h2 {
+  margin-bottom: 10px;
+}
+
+/* line 962, app/assets/stylesheets/eshop.css.scss */
+.account .send {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  background-color: #DA1D47;
+  padding: 0 20px;
+  height: 40px;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+/* line 975, app/assets/stylesheets/eshop.css.scss */
+.account .cg-contacts {
+  margin-top: 60px;
+}
+
+/* line 980, app/assets/stylesheets/eshop.css.scss */
+.orders-titles {
+  width: 978px;
+  height: 36px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+/* line 986, app/assets/stylesheets/eshop.css.scss */
+.orders-titles p {
+  float: left;
+  margin: 0;
+  padding: 8px;
+}
+
+/* line 992, app/assets/stylesheets/eshop.css.scss */
+.orders-titles .on {
+  width: 70px;
+}
+
+/* line 993, app/assets/stylesheets/eshop.css.scss */
+.orders-titles .cr {
+  width: 170px;
+}
+
+/* line 994, app/assets/stylesheets/eshop.css.scss */
+.orders-titles .tt {
+  width: 155px;
+}
+
+/* line 997, app/assets/stylesheets/eshop.css.scss */
+.orders-titles .pt {
+  width: 92px;
+}
+
+/* line 998, app/assets/stylesheets/eshop.css.scss */
+.orders-titles .s {
+  width: 283px;
+}
+
+/* line 999, app/assets/stylesheets/eshop.css.scss */
+.orders-titles .tp {
+  width: 64px;
+}
+
+/* line 1003, app/assets/stylesheets/eshop.css.scss */
+.account .orders-accordion .accordion-group {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+
+/* line 1008, app/assets/stylesheets/eshop.css.scss */
+.account .orders-accordion .accordion-heading {
+  /*height: 55px;*/
+}
+
+/* line 1011, app/assets/stylesheets/eshop.css.scss */
+.account .orders-accordion .accordion-toggle {
+  background-color: #F5F5F5;
+  padding: 0px;
+  height: 36px;
+  color: #000000;
+}
+
+/* line 1016, app/assets/stylesheets/eshop.css.scss */
+.account .orders-accordion .accordion-toggle p {
+  float: left;
+  margin: 0;
+  padding: 8px;
+}
+
+/* line 1022, app/assets/stylesheets/eshop.css.scss */
+.account .orders-accordion .accordion-toggle .on {
+  width: 70px;
+}
+
+/* line 1023, app/assets/stylesheets/eshop.css.scss */
+.account .orders-accordion .accordion-toggle .cr {
+  width: 170px;
+}
+
+/* line 1024, app/assets/stylesheets/eshop.css.scss */
+.account .orders-accordion .accordion-toggle .tt {
+  width: 155px;
+  height: 1em;
+}
+
+/* line 1028, app/assets/stylesheets/eshop.css.scss */
+.account .orders-accordion .accordion-toggle .pt {
+  width: 92px;
+}
+
+/* line 1029, app/assets/stylesheets/eshop.css.scss */
+.account .orders-accordion .accordion-toggle .s {
+  width: 283px;
+}
+
+/* line 1030, app/assets/stylesheets/eshop.css.scss */
+.account .orders-accordion .accordion-toggle .tp {
+  width: 88px;
+  height: 18px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 1033, app/assets/stylesheets/eshop.css.scss */
+.account .orders-accordion .accordion-inner {
+  height: 44px;
+  padding: 0;
+}
+
+/* line 1036, app/assets/stylesheets/eshop.css.scss */
+.account .orders-accordion .accordion-inner .cart-item-pcode {
+  display: block;
+}
+
+/* line 1039, app/assets/stylesheets/eshop.css.scss */
+.account .orders-accordion .accordion-inner p {
+  float: left;
+  margin: 0;
+  padding: 8px 18px;
+}
+
+/* line 1045, app/assets/stylesheets/eshop.css.scss */
+.account .orders-accordion .accordion-inner .accordion-inner-wrapper {
+  width: 100%;
+  height: 44px;
+}
+
+/*********************/
+/*       LOGIN       */
+/*********************/
+/* line 1069, app/assets/stylesheets/eshop.css.scss */
+#page .login {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* line 1073, app/assets/stylesheets/eshop.css.scss */
+.login-form {
+  width: 310px;
+  margin: auto;
+}
+
+/* line 1078, app/assets/stylesheets/eshop.css.scss */
+.login-form h2 {
+  margin: 40px 0px 20px;
+}
+
+/* line 1082, app/assets/stylesheets/eshop.css.scss */
+.login-form .send {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  background-color: #DA1D47;
+  padding: 0 20px;
+  height: 40px;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+/* line 1094, app/assets/stylesheets/eshop.css.scss */
+.login-form .send-forgot-password {
+  margin-top: 20px;
+}
+
+/* line 1099, app/assets/stylesheets/eshop.css.scss */
+.login-form .controls {
+  margin-left: 70px;
+}
+
+/* line 1102, app/assets/stylesheets/eshop.css.scss */
+.login-form .control-label {
+  width: 60px;
+  padding-right: 10px;
+}
+
+/* line 1106, app/assets/stylesheets/eshop.css.scss */
+.login-form .forgot-password {
+  margin: 40px 0px 0px;
+}
+
+/* line 1108, app/assets/stylesheets/eshop.css.scss */
+.login-form .forgot-password a {
+  color: #DA1E48;
+}
+
+/* line 1111, app/assets/stylesheets/eshop.css.scss */
+.login-form .forgot-password a:hover {
+  color: #000000;
+}
+
+/*********************/
+/*   REGISTRATION    */
+/*********************/
+/* line 1120, app/assets/stylesheets/eshop.css.scss */
+.registration .send {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  background-color: #DA1D47;
+  padding: 0 20px;
+  height: 40px;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+/*********************/
+/*       STOCK       */
+/*********************/
+/* line 1137, app/assets/stylesheets/eshop.css.scss */
+#stock .success {
+  color: green;
+}
+
+/* line 1142, app/assets/stylesheets/eshop.css.scss */
+#stock .fail {
+  color: red;
+}
+
+/*************************/
+/*    BASKET DROPDOWN    */
+/*************************/
+/* line 1153, app/assets/stylesheets/eshop.css.scss */
+#basket-dd {
+  font-size: 13px;
+  background-color: #DA1D47;
+  color: #FFFFFF;
+  width: 230px;
+  height: 20px;
+  margin-left: 748px;
+  display: block;
+  position: relative;
+  padding: 6px 0px;
+  top: 10px;
+}
+
+/* line 1168, app/assets/stylesheets/eshop.css.scss */
+#basket-dd .basket-in, #basket-dd .go-to-basket {
+  font-size: 13px;
+  position: absolute;
+  height: 13px;
+  padding: 4px 0px;
+  line-height: 13px;
+}
+
+/* line 1175, app/assets/stylesheets/eshop.css.scss */
+#basket-dd .basket-in {
+  left: 10px;
+}
+
+/* line 1178, app/assets/stylesheets/eshop.css.scss */
+#basket-dd .go-to-basket {
+  right: 10px;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+/* line 1183, app/assets/stylesheets/eshop.css.scss */
+#basket-dd .basket-in-nohover {
+  background: url("basket3-ed45d4fd9eb7bb693738248505790da41a6e6f2d2438febea6844a6eedc835a3.png") center left no-repeat;
+  padding-left: 19px;
+}
+
+/* line 1187, app/assets/stylesheets/eshop.css.scss */
+#basket-dd .basket-in-hover {
+  background: url("basket-hover3-46b4158c803f783e5a4350cf3a4c84e94b9c48fe152f0fd3097c20c45dc49f5e.png") center left no-repeat;
+  padding-left: 19px;
+}
+
+/* line 1191, app/assets/stylesheets/eshop.css.scss */
+#basket-dd .go-to-basket-hover {
+  background: url("basket3-ed45d4fd9eb7bb693738248505790da41a6e6f2d2438febea6844a6eedc835a3.png") center left no-repeat;
+  padding-left: 19px;
+  font-size: 13px;
+  line-height: 13px;
+}
+
+/* line 1199, app/assets/stylesheets/eshop.css.scss */
+.hu #basket-dd {
+  width: 261px;
+  margin-left: 718px;
+}
+
+/* line 1206, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-basket-dd {
+  border: 0;
+  background-color: #DA1D47;
+}
+
+/* line 1209, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-basket-dd .ui-tooltip-content {
+  width: 100%;
+  background-color: #DA1D47;
+  padding: 0;
+}
+
+/* line 1213, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-basket-dd .ui-tooltip-content p {
+  display: block;
+  height: 15px;
+  margin: 0;
+  padding: 3px 10px;
+  color: #FFFFFF;
+  font-size: 13px;
+}
+
+/* line 1220, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-basket-dd .ui-tooltip-content p .pname {
+  display: block;
+  width: 145px;
+  float: left;
+  padding-left: 0px;
+}
+
+/* line 1226, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-basket-dd .ui-tooltip-content p .pprice {
+  font-size: 13px;
+  display: block;
+  width: 65px;
+  float: left;
+  text-align: right;
+  padding-right: 0px;
+}
+
+/* line 1235, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-basket-dd .ui-tooltip-content p.sum {
+  border-top: 1px solid #FFFFFF;
+  padding: 10px 0px;
+  margin: 4px 10px 0px;
+}
+
+/* line 1239, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-basket-dd .ui-tooltip-content p.sum .pname, .ui-tooltip-basket-dd .ui-tooltip-content p.sum .pprice {
+  font-size: 13px;
+  width: 105px;
+}
+
+/* line 1259, app/assets/stylesheets/eshop.css.scss */
+.hu .ui-tooltip-basket-dd .ui-tooltip-content p .pname {
+  width: 145px;
+}
+
+/* line 1262, app/assets/stylesheets/eshop.css.scss */
+.hu .ui-tooltip-basket-dd .ui-tooltip-content p .pprice {
+  width: 95px;
+}
+
+/* line 1267, app/assets/stylesheets/eshop.css.scss */
+.hu .ui-tooltip-basket-dd .ui-tooltip-content p.sum .pname {
+  width: 105px;
+}
+
+/* line 1270, app/assets/stylesheets/eshop.css.scss */
+.hu .ui-tooltip-basket-dd .ui-tooltip-content p.sum .pprice {
+  width: 135px;
+}
+
+/* line 1278, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-account-dd {
+  border: 0;
+  background-color: #DA1D47;
+}
+
+/* line 1281, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-account-dd .ui-tooltip-content {
+  width: 100%;
+  background-color: #DA1D47;
+  padding: 10px 0px 5px;
+}
+
+/* line 1285, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-account-dd .ui-tooltip-content ul {
+  margin: 0;
+}
+
+/* line 1288, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-account-dd .ui-tooltip-content a {
+  display: block;
+  height: 13px;
+  line-height: 13px;
+  color: #FFFFFF;
+  font-size: 13px;
+  text-align: left;
+}
+
+/* line 1315, app/assets/stylesheets/eshop.css.scss */
+.hu .ui-tooltip-account-dd {
+  border: 0;
+  background-color: #DA1D47;
+}
+
+/* line 1318, app/assets/stylesheets/eshop.css.scss */
+.hu .ui-tooltip-account-dd .ui-tooltip-content {
+  width: 150px;
+  /*100%*/
+}
+
+/* line 1325, app/assets/stylesheets/eshop.css.scss */
+#header-top-menu ul.menu {
+  margin-top: 0;
+}
+
+/* line 1327, app/assets/stylesheets/eshop.css.scss */
+#header-top-menu ul.menu li {
+  display: block;
+  width: auto;
+  margin-top: 12px;
+  margin-bottom: 13px;
+  height: 18px;
+}
+
+/* line 1333, app/assets/stylesheets/eshop.css.scss */
+#header-top-menu ul.menu li a.account-login {
+  margin: 0;
+  padding-left: 8px;
+}
+
+/* line 1336, app/assets/stylesheets/eshop.css.scss */
+#header-top-menu ul.menu li a.account-login ul {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+/* line 1339, app/assets/stylesheets/eshop.css.scss */
+#header-top-menu ul.menu li a.account-login ul li {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+/* line 1348, app/assets/stylesheets/eshop.css.scss */
+#header-top-menu .account {
+  border-left: 1px solid #FFFFFF;
+  height: 43px;
+  width: auto;
+}
+
+/* line 1352, app/assets/stylesheets/eshop.css.scss */
+#header-top-menu .account .account-icon {
+  margin-left: 6px;
+}
+
+/* line 1357, app/assets/stylesheets/eshop.css.scss */
+#account-dd,
+.account-dd-content a {
+  color: #FFFFFF;
+}
+
+/* line 1363, app/assets/stylesheets/eshop.css.scss */
+a#account-dd {
+  height: 25px;
+}
+
+/* line 1371, app/assets/stylesheets/eshop.css.scss */
+#header-top-menu ul.menu li.poradna a {
+  margin-right: 3px;
+}
+
+/* line 1375, app/assets/stylesheets/eshop.css.scss */
+#poradna-dd,
+.poradna-dd-content a {
+  color: #FFFFFF;
+}
+
+/* line 1381, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-poradna-dd div.ui-tooltip-content li {
+  padding: 0px 0px 14px;
+  margin: 0px 10px;
+  list-style-type: none;
+}
+
+/* line 1387, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-poradna-dd div.ui-tooltip-content {
+  list-style-type: none;
+  margin: 0;
+}
+
+/* line 1393, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-poradna-dd {
+  border: 0;
+  background-color: #DA1D47;
+}
+
+/* line 1396, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-poradna-dd .ui-tooltip-content {
+  width: 100%;
+  background-color: #DA1D47;
+  padding: 15px 0px 5px;
+}
+
+/* line 1400, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-poradna-dd .ui-tooltip-content ul {
+  margin: 0;
+}
+
+/* line 1403, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-poradna-dd .ui-tooltip-content a {
+  display: block;
+  height: 13px;
+  line-height: 13px;
+  color: #FFFFFF;
+  font-size: 13px;
+  text-align: left;
+}
+
+/* line 1436, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-account-dd div.ui-tooltip-content li {
+  padding: 0px 0px 14px;
+  margin: 0px 10px;
+  list-style-type: none;
+}
+
+/* line 1442, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-account-dd div.ui-tooltip-content {
+  list-style-type: none;
+  margin: 0;
+}
+
+/* line 1446, app/assets/stylesheets/eshop.css.scss */
+.ui-tooltip-account-dd div.ui-tooltip-content li.logout {
+  border-top: 1px solid #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 9px;
+}
+
+/* line 1468, app/assets/stylesheets/eshop.css.scss */
+#payu_ .content {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1471, app/assets/stylesheets/eshop.css.scss */
+#payu_ .content input {
+  width: auto;
+  float: none;
+  margin: 0px 0px 0px 20px;
+}
+
+/* line 1478, app/assets/stylesheets/eshop.css.scss */
+.payu-style {
+  border: 1px solid #CCC;
+  width: 420px;
+  margin: 5px;
+  background-color: #FFF;
+}
+
+/* line 1486, app/assets/stylesheets/eshop.css.scss */
+.payu-style td {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #F2F2F2;
+  padding: 20px 3px;
+}
+
+/* line 1491, app/assets/stylesheets/eshop.css.scss */
+.payu-style td input {
+  width: auto;
+  float: none;
+  margin: 0px 0px 0px 20px;
+}
+
+/* line 1497, app/assets/stylesheets/eshop.css.scss */
+.payu-style td.rb {
+  width: 60px;
+}
+
+/* line 1500, app/assets/stylesheets/eshop.css.scss */
+.payu-style td.text {
+  padding-top: 23px;
+}
+
+/* line 1512, app/assets/stylesheets/eshop.css.scss */
+.add-to-card-eshop {
+  margin: 1px 0px 0px;
+  border-top: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
+}
+
+/* line 1532, app/assets/stylesheets/eshop.css.scss */
+.add-to-card-eshop .add-to-card-btn {
+  border: 0;
+  display: block;
+  width: 406px;
+  height: 45px;
+  line-height: 45px;
+  background-color: #DA1E48;
+  text-decoration: none;
+  text-align: center;
+  margin: 15px 0px 30px;
+  color: #FFFFFF;
+  font-family: 'Open sans';
+  font-weight: 400;
+  font-size: 21px;
+  padding: 0px;
+}
+
+/* line 1550, app/assets/stylesheets/eshop.css.scss */
+.add-to-card-eshop .items-count-input {
+  margin: 13px 0px;
+}
+
+/* line 1553, app/assets/stylesheets/eshop.css.scss */
+.add-to-card-eshop .items-count-input input {
+  display: block;
+  width: 60px;
+  height: 35px;
+  line-height: 35px;
+  padding: 0px;
+  font-family: 'Open sans';
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 1566, app/assets/stylesheets/eshop.css.scss */
+.add-to-card-eshop .items-count-input span {
+  display: block;
+  margin: 10px 10px 0px 0px;
+  float: left;
+}
+
+/* line 1573, app/assets/stylesheets/eshop.css.scss */
+.add-to-card-eshop #successModal a,
+.add-to-card-eshop #errorModal a {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* line 1589, app/assets/stylesheets/eshop.css.scss */
+#catalog .content .right-column .product-row .product-description h1,
+#catalog .content .right-column .product-row .product-description .stars {
+  margin-top: 0px;
+}
+
+/* line 1594, app/assets/stylesheets/eshop.css.scss */
+#catalog .content .right-column .product-row .product-description .info-wrapper {
+  float: left;
+}
+
+/* line 1597, app/assets/stylesheets/eshop.css.scss */
+#catalog .content .right-column .product-row .product-description .text {
+  clear: both;
+}
+
+/* line 1601, app/assets/stylesheets/eshop.css.scss */
+#catalog .content .right-column .product-row .product-description .rating-wrapper {
+  margin-bottom: 10px;
+}
+
+/* line 1605, app/assets/stylesheets/eshop.css.scss */
+#catalog .content .right-column .product-row .product-description .info-wrapper {
+  padding-top: 10px;
+}
+
+/* line 1609, app/assets/stylesheets/eshop.css.scss */
+#catalog .content .right-column .product-row .product-description .rating-wrapper {
+  float: right;
+}
+
+/* line 1613, app/assets/stylesheets/eshop.css.scss */
+#catalog .content .right-column .product-row .product-description .params,
+#catalog .content .right-column .product-row .product-description .add-to-card-eshop {
+  float: left;
+  width: 100%;
+}
+
+/* line 1620, app/assets/stylesheets/eshop.css.scss */
+#catalog .content .right-column .product-row .product-description .add-to-card-eshop .add-to-card-btn {
+  background: #DA1E48 url("add-to-cart-9b636389fb70cc7cac71197c6b0966fb6b37228faf24ae2540c82a552c63ef60.png") top left no-repeat;
+  text-align: left;
+  padding-left: 42px;
+}
+
+/* line 1631, app/assets/stylesheets/eshop.css.scss */
+.pece-call {
+  text-align: right;
+  margin-top: 0;
+  font-size: 11px;
+  line-height: 11px;
+  display: block;
+  margin-top: 10px;
+  padding-left: 0px;
+}
+
+/* line 1641, app/assets/stylesheets/eshop.css.scss */
+.pece-call a {
+  text-decoration: underline !important;
+  color: #000;
+}
+
+/* line 1646, app/assets/stylesheets/eshop.css.scss */
+#catalog .content .right-column .product-row .product-description .text-large .price {
+  font-size: 20px;
+  color: #da1e48;
+}
+
+/* line 1651, app/assets/stylesheets/eshop.css.scss */
+#catalog .content .right-column .product-row .product-description .params .space-large {
+  margin: 36px 0px;
+}
+
+/* line 1655, app/assets/stylesheets/eshop.css.scss */
+.add-to-card-eshop .items-count-input {
+  margin: 13px 0px 0px 0px;
+}
+
+/* line 1659, app/assets/stylesheets/eshop.css.scss */
+.add-to-card-eshop {
+  margin: 0;
+  border-top: 0px;
+}
+
+/* line 1664, app/assets/stylesheets/eshop.css.scss */
+#catalog .content .right-column .product-row .product-description .params {
+  border-bottom: 0px;
+}
+
+/* line 1680, app/assets/stylesheets/eshop.css.scss */
+#catalog .content .right-column .product-row .product-description .params .color .color-title {
+  margin-top: 0;
+}
+
+/* line 1683, app/assets/stylesheets/eshop.css.scss */
+#catalog .content .right-column .product-row .product-description .params .color .icon {
+  display: block;
+  width: 30px;
+  height: auto;
+  float: left;
+  margin: 0px 10px 0px 0px;
+  border: 0;
+  cursor: pointer;
+  cursor: hand;
+  text-align: center;
+}
+
+/* line 1693, app/assets/stylesheets/eshop.css.scss */
+#catalog .content .right-column .product-row .product-description .params .color .icon input,
+#catalog .content .right-column .product-row .product-description .params .color .icon img {
+  margin: 0;
+}
+
+/* line 1697, app/assets/stylesheets/eshop.css.scss */
+#catalog .content .right-column .product-row .product-description .params .color .icon .icon-color {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  margin: 5px 0px 0px;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  border-radius: 17px;
+}
+
+/* line 1709, app/assets/stylesheets/eshop.css.scss */
+#catalog .content .right-column .product-row .product-description .params .color .color-link-active {
+  border-color: #DA1E48;
+}
+
+/************************/
+/*       HOMEPAGE       */
+/************************/
+/* line 1724, app/assets/stylesheets/eshop.css.scss */
+.eshop {
+  height: 420px;
+  overflow: hidden;
+}
+
+/* line 1727, app/assets/stylesheets/eshop.css.scss */
+.eshop .hp-background {
+  height: 420px;
+}
+
+/* line 1730, app/assets/stylesheets/eshop.css.scss */
+.eshop .hp-banner-1,
+.eshop .hp-banner-2 {
+  left: 0;
+}
+
+/* line 1742, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1,
+#hp-section-2,
+#hp-section-3 {
+  width: 100%;
+  height: 340px;
+  margin-top: 30px;
+}
+
+/* line 1748, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .hp-background,
+#hp-section-2 .hp-background,
+#hp-section-3 .hp-background {
+  position: relative;
+  margin: auto;
+  width: 978px;
+  height: 340px;
+}
+
+/* line 1761, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .product-row,
+#hp-section-2 .product-row,
+#hp-section-3 .product-row {
+  height: 294px;
+  width: 890px;
+  margin: 10px auto 0px;
+}
+
+/* line 1766, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .product,
+#hp-section-2 .product,
+#hp-section-3 .product {
+  border-top: 1px solid #ECECEC;
+  margin: 10px 15px 0px 0px;
+  width: 166px;
+  min-width: 166px;
+  max-width: 166px;
+  float: left;
+}
+
+/* line 1773, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .product .img,
+#hp-section-2 .product .img,
+#hp-section-3 .product .img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  margin: 1px 0px 0px;
+  border: 0px;
+  border-top: 1px solid #ECECEC;
+}
+
+/* line 1782, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .product .img .act,
+#hp-section-2 .product .img .act,
+#hp-section-3 .product .img .act {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  color: #DA1E48;
+  font-weight: bold;
+}
+
+/* line 1789, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .product .img .act-new,
+#hp-section-2 .product .img .act-new,
+#hp-section-3 .product .img .act-new {
+  color: #DFC100;
+}
+
+/* line 1792, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .product .img .act-act,
+#hp-section-2 .product .img .act-act,
+#hp-section-3 .product .img .act-act {
+  color: #D0F744;
+}
+
+/* line 1795, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .product .img .act-dis,
+#hp-section-2 .product .img .act-dis,
+#hp-section-3 .product .img .act-dis {
+  color: #7BF6EF;
+}
+
+/* line 1800, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .product div.text,
+#hp-section-2 .product div.text,
+#hp-section-3 .product div.text {
+  height: 69px;
+  margin: 0px 0px 4px;
+  border-top: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
+}
+
+/* line 1805, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .product div.text .name,
+#hp-section-2 .product div.text .name,
+#hp-section-3 .product div.text .name {
+  height: 36px;
+  margin-top: 9px;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+/* line 1811, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .product div.text .prize,
+#hp-section-2 .product div.text .prize,
+#hp-section-3 .product div.text .prize {
+  width: 50%;
+  float: left;
+  text-align: right;
+  color: #DA1E48;
+}
+
+/* line 1817, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .product div.text .link,
+#hp-section-2 .product div.text .link,
+#hp-section-3 .product div.text .link {
+  width: 50%;
+  float: left;
+  margin-bottom: 0px;
+  text-align: left;
+  font-size: 11px;
+}
+
+/* line 1823, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .product div.text .link a,
+#hp-section-2 .product div.text .link a,
+#hp-section-3 .product div.text .link a {
+  color: #DA1E48;
+}
+
+/* line 1825, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .product div.text .link a:hover,
+#hp-section-2 .product div.text .link a:hover,
+#hp-section-3 .product div.text .link a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* line 1834, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .last,
+#hp-section-2 .last,
+#hp-section-3 .last {
+  margin-right: 0px;
+}
+
+/* line 1840, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 {
+  height: 150px;
+}
+
+/* line 1846, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .hp-background {
+  height: 150px;
+}
+
+/* line 1848, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .hp-background .cat-box {
+  margin: 0;
+  text-align: center;
+  width: 231px;
+  height: 165px;
+  float: left;
+  border-left: 0px white;
+  border-right: 0px white;
+  margin-left: 18px;
+  background-color: #DA1E48;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+/* line 1861, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .hp-background .cat-box img {
+  padding-bottom: 9px;
+  border: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 1868, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .hp-background .cat-box-first {
+  margin-left: 0;
+}
+
+/* line 1871, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .hp-background .cat-box-last {
+  margin-right: 0;
+}
+
+/* line 1878, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .hp-background .cat-box {
+  width: 323px;
+  height: 150px;
+  float: left;
+  border-left: 0px solid #ececec;
+  border-right: 2px solid #ececec;
+  margin-left: 0px;
+  background-color: transparent;
+  color: #8E8E8E;
+  font-weight: bold;
+}
+
+/* line 1890, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 .hp-background .cat-box.cat-box-first {
+  border-left: 2px solid #ececec;
+}
+
+/* line 1893, app/assets/stylesheets/eshop.css.scss */
+#hp-section-1 {
+  margin-top: 60px;
+}
+
+@media (max-width: 979px) {
+  /* line 1897, app/assets/stylesheets/eshop.css.scss */
+  #hp-section-1 .hp-background .cat-men-box {
+    background-color: #ececec;
+  }
+  /* line 1900, app/assets/stylesheets/eshop.css.scss */
+  #hp-section-1 .hp-background .cat-men-box span {
+    background-color: #102C6C;
+  }
+  /* line 1903, app/assets/stylesheets/eshop.css.scss */
+  #hp-section-1 .hp-background .cat-box span {
+    background-color: transparent;
+  }
+  /* line 1907, app/assets/stylesheets/eshop.css.scss */
+  #hp-section-1 .hp-background .cat-box {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 165px;
+    float: none;
+    border-left: 0px white;
+    border-right: 0px white;
+    margin: 0px auto 2px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #8E8E8E;
+    font-weight: bold;
+  }
+  /* line 1921, app/assets/stylesheets/eshop.css.scss */
+  #hp-section-1 .hp-background .cat-box-inline {
+    font-size: 16px;
+    color: #8E8E8E;
+    font-weight: bold;
+    margin: 20px auto !important;
+    display: block;
+  }
+}
+
+/* line 1932, app/assets/stylesheets/eshop.css.scss */
+#hp-section-2,
+#hp-section-3 {
+  margin-top: 60px;
+}
+
+/* line 1935, app/assets/stylesheets/eshop.css.scss */
+#hp-section-2 .product-row,
+#hp-section-3 .product-row {
+  width: 918px;
+}
+
+/* line 1939, app/assets/stylesheets/eshop.css.scss */
+#hp-section-2 .first,
+#hp-section-3 .first {
+  margin-left: 15px;
+}
+
+/* line 1945, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product-row {
+  height: 294px;
+  /*width: 890px;*/
+  /*margin: 10px auto 0px;*/
+}
+
+/* line 1950, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product {
+  border-top: 1px solid #ECECEC;
+  margin: 0px 35px 0px 0px;
+  width: 166px;
+  min-width: 166px;
+  max-width: 166px;
+  float: left;
+}
+
+/* line 1957, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product .img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  margin: 1px 0px 0px;
+  border: 0px;
+  border-top: 1px solid #ECECEC;
+}
+
+/* line 1966, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product .img .act {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  color: #DA1E48;
+  font-weight: bold;
+}
+
+/* line 1973, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product .img .act-new {
+  color: #DFC100;
+}
+
+/* line 1976, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product .img .act-act {
+  color: #D0F744;
+}
+
+/* line 1979, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product .img .act-dis {
+  color: #7BF6EF;
+}
+
+/* line 1984, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product div.text {
+  height: 75px;
+  margin: 0px 0px 4px;
+  border-top: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
+}
+
+/* line 1989, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product div.text .name {
+  height: auto;
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+/* line 1995, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product div.text .prize {
+  width: 50%;
+  float: left;
+  text-align: right;
+  color: #DA1E48;
+}
+
+/* line 2000, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product div.text .prize .lthrough {
+  text-decoration: line-through;
+}
+
+/* line 2004, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product div.text .link {
+  width: 50%;
+  float: left;
+  margin-bottom: 9px;
+  text-align: left;
+  font-size: 11px;
+}
+
+/* line 2010, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product div.text .link a {
+  color: #DA1E48;
+}
+
+/* line 2012, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product div.text .link a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* line 2021, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .last {
+  margin-right: 0px;
+}
+
+/* line 2027, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product {
+  margin-top: 10px;
+}
+
+/* line 2030, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product-row-top .product {
+  margin-left: 201px;
+}
+
+/* line 2033, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product div.text {
+  height: 85px;
+  margin: 0px 0px 10px;
+}
+
+/* line 2037, app/assets/stylesheets/eshop.css.scss */
+#new-year-action .product div.text .name {
+  height: 36px;
+  margin-top: 8px;
+}
+
+/* line 2046, app/assets/stylesheets/eshop.css.scss */
+.hp-info-1,
+.hp-info-2 {
+  width: 100%;
+  margin-top: 30px;
+}
+
+/* line 2050, app/assets/stylesheets/eshop.css.scss */
+.hp-info-1 .seo-text,
+.hp-info-2 .seo-text {
+  margin: auto;
+  width: 978px;
+}
+
+/* line 2053, app/assets/stylesheets/eshop.css.scss */
+.hp-info-1 .seo-text p,
+.hp-info-2 .seo-text p {
+  padding: 5px 0;
+  font-size: 90%;
+}
+
+/* line 2058, app/assets/stylesheets/eshop.css.scss */
+.hp-info-1 .hp-background,
+.hp-info-2 .hp-background {
+  background: #ECECEC;
+  position: relative;
+  margin: auto;
+  width: 978px;
+  height: 62px;
+}
+
+/* line 2065, app/assets/stylesheets/eshop.css.scss */
+.hp-info-1 .item,
+.hp-info-2 .item {
+  font-size: 16px;
+  float: left;
+  width: 50%;
+  height: 32px;
+  margin: 0;
+  padding: 15px 0px;
+  position: relative;
+}
+
+/* line 2073, app/assets/stylesheets/eshop.css.scss */
+.hp-info-1 .item i,
+.hp-info-2 .item i {
+  display: block;
+  float: left;
+  margin-right: 15px;
+  color: #DA1E48;
+}
+
+/* line 2079, app/assets/stylesheets/eshop.css.scss */
+.hp-info-1 .item span,
+.hp-info-2 .item span {
+  display: block;
+  float: left;
+}
+
+/* line 2085, app/assets/stylesheets/eshop.css.scss */
+.hp-info-1 .item-first i,
+.hp-info-2 .item-first i {
+  margin-left: 20px;
+}
+
+/* line 2088, app/assets/stylesheets/eshop.css.scss */
+.hp-info-1 .item-first span,
+.hp-info-2 .item-first span {
+  color: #DA1E48;
+  margin: 7px 0px 0px;
+}
+
+/* line 2094, app/assets/stylesheets/eshop.css.scss */
+.hp-info-1 .item-last i,
+.hp-info-2 .item-last i {
+  margin-left: 0;
+  color: #000000;
+}
+
+/* line 2098, app/assets/stylesheets/eshop.css.scss */
+.hp-info-1 .item-last span,
+.hp-info-2 .item-last span {
+  font-size: 24px;
+  margin: 5px 0px 0px;
+}
+
+/* line 2104, app/assets/stylesheets/eshop.css.scss */
+.hp-info-2 {
+  margin-top: 10px;
+}
+
+/* line 2107, app/assets/stylesheets/eshop.css.scss */
+.hp-info-2 .item-last img {
+  margin: 0px 40px 0px 0px;
+}
+
+/* line 2110, app/assets/stylesheets/eshop.css.scss */
+.hp-info-2 .item-last .logo-payu {
+  height: 24px;
+}
+
+/* line 2113, app/assets/stylesheets/eshop.css.scss */
+.hp-info-2 .item-last .logo-visa {
+  height: 26px;
+}
+
+/* line 2120, app/assets/stylesheets/eshop.css.scss */
+.hp-text {
+  width: 100%;
+  margin-top: 30px;
+}
+
+/* line 2124, app/assets/stylesheets/eshop.css.scss */
+.hp-text .hp-background {
+  position: relative;
+  margin: auto;
+  width: 978px;
+}
+
+/* line 2130, app/assets/stylesheets/eshop.css.scss */
+.hp-text .col1,
+.hp-text .col2 {
+  width: 50%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+/* line 2138, app/assets/stylesheets/eshop.css.scss */
+.hp-text .col1 h3,
+.hp-text .col2 h3 {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+/* line 2142, app/assets/stylesheets/eshop.css.scss */
+.hp-text .col1 p,
+.hp-text .col2 p {
+  margin-bottom: 16px;
+}
+
+/* line 2146, app/assets/stylesheets/eshop.css.scss */
+.hp-text .col1 p {
+  margin-right: 25px;
+}
+
+/* line 2155, app/assets/stylesheets/eshop.css.scss */
+#hp-section-3 .product div.text .name {
+  height: auto;
+  display: block;
+  color: #000000;
+}
+
+/* line 2162, app/assets/stylesheets/eshop.css.scss */
+#hp-section-3 .product div.text .prize .lthrough {
+  text-decoration: line-through;
+}
+
+/* line 2167, app/assets/stylesheets/eshop.css.scss */
+#hp-section-2 .product div.text .name {
+  height: auto;
+  display: block;
+  color: #000000;
+}
+
+/* line 2174, app/assets/stylesheets/eshop.css.scss */
+#hp-section-2 .product div.text .prize .lthrough {
+  text-decoration: line-through;
+}
+
+/* line 2182, app/assets/stylesheets/eshop.css.scss */
+#hp-section-2 .product div.text .name,
+#hp-section-3 .product div.text .name {
+  height: 36px;
+}
+
+/* line 2185, app/assets/stylesheets/eshop.css.scss */
+#hp-section-2 .product div.text .prize,
+#hp-section-2 .product div.text .link,
+#hp-section-3 .product div.text .prize,
+#hp-section-3 .product div.text .link {
+  margin-top: -18px;
+}
+
+/*************************************/
+/*       ACTIVE SLIMMER ACTION       */
+/*************************************/
+/* line 2196, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .product-row {
+  height: 294px;
+  /*width: 890px;*/
+  /*margin: 10px auto 0px;*/
+}
+
+/* line 2201, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .product {
+  border-top: 1px solid #ECECEC;
+  margin: 0px 17px 0px 0px;
+  /*width: 166px;*/
+  width: 221px;
+  min-width: 221px;
+  max-width: 221px;
+  float: left;
+}
+
+/* line 2209, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .product .img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 177px;
+  overflow: hidden;
+  margin: 1px 0px 0px;
+  border: 0px;
+  border-top: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
+}
+
+/* line 2219, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .product .img .act {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  color: #DA1E48;
+  font-weight: bold;
+}
+
+/* line 2226, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .product .img .act-new {
+  color: #DFC100;
+}
+
+/* line 2229, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .product .img .act-act {
+  color: #D0F744;
+}
+
+/* line 2232, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .product .img .act-dis {
+  color: #7BF6EF;
+}
+
+/* line 2237, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .last {
+  margin-right: 0px;
+}
+
+/* line 2240, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .bold {
+  font-weight: bold;
+}
+
+/* line 2243, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .name {
+  border-top: 1px solid #ECECEC;
+  margin-top: 1px;
+  padding-top: 10px;
+}
+
+/* line 2248, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .color {
+  width: 177px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+/* line 2252, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .color .color-title {
+  margin-top: 0;
+}
+
+/* line 2255, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .color .icon {
+  display: block;
+  width: 30px;
+  height: auto;
+  float: left;
+  margin: 0px 10px 0px 0px;
+  border: 0;
+  cursor: pointer;
+  cursor: hand;
+  text-align: center;
+}
+
+/* line 2265, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .color .icon input,
+#active-slimmer-action .color .icon img {
+  margin: 0;
+}
+
+/* line 2269, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .color .icon .icon-color {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  margin: 5px 0px 0px;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  border-radius: 17px;
+}
+
+/* line 2281, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .color .color-link-active {
+  border-color: #DA1E48;
+}
+
+/* line 2285, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .size {
+  width: 177px;
+}
+
+/* line 2287, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .size select {
+  width: auto;
+}
+
+/* line 2291, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .price {
+  border-bottom: 1px solid #ECECEC;
+  margin-bottom: 1px;
+  padding-bottom: 10px;
+  width: 177px;
+}
+
+/* line 2297, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .add-to-card-eshop {
+  border-top: 1px solid #ECECEC;
+  border-bottom: 0;
+}
+
+/* line 2301, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .add-to-card-btn {
+  background: #DA1E48 url("add-to-cart-9b636389fb70cc7cac71197c6b0966fb6b37228faf24ae2540c82a552c63ef60.png") top left no-repeat;
+  text-align: left;
+  padding-left: 42px;
+  border: 0;
+  display: block;
+  width: 177px;
+  height: 45px;
+  line-height: 45px;
+  margin: 15px 0px 30px;
+}
+
+/* line 2313, app/assets/stylesheets/eshop.css.scss */
+#active-slimmer-action .modal {
+  text-align: left;
+}
+
+/* line 2320, app/assets/stylesheets/eshop.css.scss */
+.modal {
+  position: fixed !important;
+  /*max-width: 560px;*/
+  /*width: 80%;*/
+}
+
+/* line 2326, app/assets/stylesheets/eshop.css.scss */
+.alert-tip {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 18px;
+  text-shadow: none;
+  background-color: #ececec;
+  /*#da1e48*/
+  border: 1px solid #ececec;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  color: #278a31;
+}
+
+/* line 2337, app/assets/stylesheets/eshop.css.scss */
+.alert-tip-link {
+  color: #278a31;
+  text-decoration: underline !important;
+  font-weight: bold;
+}
+
+/* line 2342, app/assets/stylesheets/eshop.css.scss */
+.alert-tip-link:hover {
+  color: #278a31;
+}
+
+/* line 2347, app/assets/stylesheets/eshop.css.scss */
+.accept-checkbox {
+  clear: both;
+}
+
+/* line 2349, app/assets/stylesheets/eshop.css.scss */
+.accept-checkbox .red {
+  border: 2px solid red;
+  color: red !important;
+}
+
+/* line 2353, app/assets/stylesheets/eshop.css.scss */
+.accept-checkbox input {
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.5);
+  /* IE */
+  -moz-transform: scale(1.5);
+  /* FF */
+  -webkit-transform: scale(1.5);
+  /* Safari and Chrome */
+  -o-transform: scale(1.5);
+  /* Opera */
+  padding: 10px;
+  margin: 10px;
+}
+
+/* line 2362, app/assets/stylesheets/eshop.css.scss */
+.accept-checkbox .checkboxtext {
+  /* Checkbox text */
+  font-size: 110%;
+  display: inline;
+}
+
+/* line 2371, app/assets/stylesheets/eshop.css.scss */
+#brands-header {
+  padding: 0;
+  margin: 0;
+  height: 57px;
+}
+
+/* line 2375, app/assets/stylesheets/eshop.css.scss */
+#brands-header .inner {
+  max-width: 978px;
+  margin: 0 auto;
+}
+
+/* line 2378, app/assets/stylesheets/eshop.css.scss */
+#brands-header .inner div {
+  line-height: 57px;
+  float: left;
+}
+
+/* line 2381, app/assets/stylesheets/eshop.css.scss */
+#brands-header .inner div img {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* line 2389, app/assets/stylesheets/eshop.css.scss */
+#brands-header.mobile {
+  height: 30px;
+}
+
+/* line 2392, app/assets/stylesheets/eshop.css.scss */
+#brands-header.mobile .innder div {
+  height: 30px;
+}
+
+/* line 2399, app/assets/stylesheets/eshop.css.scss */
+.hidden-desktop .navbar {
+  margin-bottom: 0;
+}
+
+/* line 2403, app/assets/stylesheets/eshop.css.scss */
+.zasilkovna-widget {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 2406, app/assets/stylesheets/eshop.css.scss */
+.zasilkovna-widget .packeta-selector-open {
+  background: #DA1E48;
+  padding: 0 10px;
+  font-family: Open sans, Arial, Helvetica, sans-serif;
+  font-size: 110%;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 250%;
+  margin: 10px;
+}
+
+/* line 2417, app/assets/stylesheets/eshop.css.scss */
+.zasilkovna-widget .packeta-selector-branch-name {
+  margin-bottom: 15px;
+}
+
+/* line 2424, app/assets/stylesheets/eshop.css.scss */
+.phone-delivery {
+  display: block;
+  float: left;
+  margin-left: 80px;
+  margin-top: 18px;
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+/* line 2432, app/assets/stylesheets/eshop.css.scss */
+.phone-delivery .phone {
+  color: #aaa;
+}
+
+/* line 2435, app/assets/stylesheets/eshop.css.scss */
+.phone-delivery .delivery {
+  color: #2D47DE;
+}
+
+/* line 2438, app/assets/stylesheets/eshop.css.scss */
+.pl .phone-delivery .delivery {
+  font-size: 90%;
+}
+
+/* line 2441, app/assets/stylesheets/eshop.css.scss */
+.hu .phone-delivery .delivery {
+  font-size: 85%;
+}
+
+/* line 2444, app/assets/stylesheets/eshop.css.scss */
+.phone-delivery span span {
+  font-weight: bold;
+}
+
+/* line 2447, app/assets/stylesheets/eshop.css.scss */
+#header-menu #logo {
+  display: block;
+  float: left;
+  width: 166px;
+  height: 60px;
+  margin-top: 26px;
+  margin-left: 0px;
+  position: relative;
+}
+
+/* line 2456, app/assets/stylesheets/eshop.css.scss */
+#basket-dd {
+  font-size: 13px;
+  background-color: #da1d47;
+  color: #fff;
+  width: 230px;
+  height: 20px;
+  margin-left: 748px;
+  /*748px;*/
+  display: block;
+  position: relative;
+  padding: 7px 0px;
+  margin-bottom: 2px;
+  top: 10px;
+}
+
+/* line 2471, app/assets/stylesheets/eshop.css.scss */
+#header-menu ul.menu li.hover-link-nomenu:hover,
+#header-menu ul.menu li.hover-link-nomenu:hover a {
+  background-color: #DA1D47;
+  color: #FFFFFF;
+}
+
+/* line 2478, app/assets/stylesheets/eshop.css.scss */
+li.magazin {
+  transform: rotate(-5deg);
+}
+
+/* line 2481, app/assets/stylesheets/eshop.css.scss */
+li.magazin a {
+  font-family: "Pacifico";
+  color: black !important;
+  text-transform: capitalize;
+  font-size: 110%;
+}
+
+/* line 2489, app/assets/stylesheets/eshop.css.scss */
+.img .discount-overlay {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: white;
+  font-weight: bold;
+}

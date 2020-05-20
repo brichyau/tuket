@@ -1,0 +1,1094 @@
+/**** DESKTOP AND MOBILE ****/
+/* line 14, app/assets/stylesheets/mobile.css.scss */
+#banner {
+  margin-top: -10px;
+}
+
+/* line 18, app/assets/stylesheets/mobile.css.scss */
+.long .nav-up {
+  margin-top: 0;
+}
+
+/****************************/
+/* line 24, app/assets/stylesheets/mobile.css.scss */
+h1 {
+  font-size: 25px;
+}
+
+/*h1.cart-header {
+	font-size: 20px;
+}*/
+/* line 32, app/assets/stylesheets/mobile.css.scss */
+.navbar-inner-mobile {
+  background: #DA1E48;
+  color: #FFFFFF;
+  webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 41, app/assets/stylesheets/mobile.css.scss */
+.navbar-inner-mobile .btn-navbar,
+.navbar-inner-mobile .btn-navbar:hover {
+  background: #DA1E48;
+  border-color: #FFFFFF;
+}
+
+/* line 46, app/assets/stylesheets/mobile.css.scss */
+.navbar-inner-mobile .btn-navbar {
+  float: left;
+}
+
+/* line 49, app/assets/stylesheets/mobile.css.scss */
+.navbar-inner-mobile .menu {
+  margin: 0px 0px 20px;
+}
+
+/* line 51, app/assets/stylesheets/mobile.css.scss */
+.navbar-inner-mobile .menu li {
+  text-align: center;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  line-height: 38px;
+}
+
+/* line 57, app/assets/stylesheets/mobile.css.scss */
+.navbar-inner-mobile .menu li a {
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 10px 0px;
+}
+
+/* line 67, app/assets/stylesheets/mobile.css.scss */
+#footer .navbar {
+  margin: 10px 0px 5px;
+}
+
+/* line 71, app/assets/stylesheets/mobile.css.scss */
+#footer .navbar-inner-mobile {
+  background: #FFFFFF;
+}
+
+/* line 73, app/assets/stylesheets/mobile.css.scss */
+#footer .navbar-inner-mobile .btn-navbar,
+#footer .navbar-inner-mobile .btn-navbar:hover {
+  background: #FFFFFF;
+  border-color: #D4D4D4;
+}
+
+/* line 78, app/assets/stylesheets/mobile.css.scss */
+#footer .navbar-inner-mobile .btn-navbar {
+  float: right;
+}
+
+/* line 81, app/assets/stylesheets/mobile.css.scss */
+#footer .navbar-inner-mobile .icon-bar {
+  background-color: #D4D4D4;
+}
+
+/* line 87, app/assets/stylesheets/mobile.css.scss */
+#logo {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+/* line 91, app/assets/stylesheets/mobile.css.scss */
+#logo a {
+  display: block;
+  width: 130px;
+  /*height: 49px;*/
+  background: none;
+  margin: auto;
+}
+
+/* line 107, app/assets/stylesheets/mobile.css.scss */
+.hp-info-2-mobile {
+  background: #ececec;
+  position: relative;
+  text-align: center;
+  margin: 20px auto 0px;
+  padding: 10px 0px;
+  width: 100%;
+  /* width: 978px; */
+  /*height: 62px;*/
+}
+
+/* line 114, app/assets/stylesheets/mobile.css.scss */
+.hp-info-2-mobile img {
+  margin: auto;
+}
+
+/* line 119, app/assets/stylesheets/mobile.css.scss */
+.hp-info-2-mobile .item-last {
+  text-align: center;
+  margin: 0;
+}
+
+/* Portrait tablet to landscape and desktop */
+/*@media (min-width: 768px) and (max-width: 979px) {*/
+@media (max-width: 979px) {
+  /* line 131, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product-description .rating-wrapper {
+    float: none;
+    padding: 10px 0px 20px;
+  }
+  /* line 136, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product-description .info-wrapper, #catalog .content .right-column .product-row .product-description .text {
+    float: none;
+  }
+  /* line 140, app/assets/stylesheets/mobile.css.scss */
+  .stars {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 145, app/assets/stylesheets/mobile.css.scss */
+  .stock-call {
+    margin-top: 10px;
+    width: 100%;
+    float: none;
+    padding-left: 0px;
+  }
+  /* line 153, app/assets/stylesheets/mobile.css.scss */
+  #hp-section-1 {
+    height: auto;
+    margin: 0;
+  }
+  /* line 156, app/assets/stylesheets/mobile.css.scss */
+  #hp-section-1 .hp-background {
+    position: static;
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+  /* line 161, app/assets/stylesheets/mobile.css.scss */
+  #hp-section-1 .hp-background .cat-box {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 165px;
+    float: none;
+    border-left: 0px white;
+    border-right: 0px white;
+    margin: 0px auto 2px;
+    background-color: #ECECEC;
+    color: white;
+    font-size: 16px;
+  }
+  /* line 173, app/assets/stylesheets/mobile.css.scss */
+  #hp-section-1 .hp-background .cat-box img {
+    padding: 0;
+    margin-top: 20px !important;
+  }
+  /* line 177, app/assets/stylesheets/mobile.css.scss */
+  #hp-section-1 .hp-background .cat-box span {
+    display: block;
+    background: #DA1E48;
+    line-height: 18px;
+    padding: 9px 0px;
+  }
+  /* line 187, app/assets/stylesheets/mobile.css.scss */
+  #footer div.footer-rights {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 0;
+  }
+  /* line 196, app/assets/stylesheets/mobile.css.scss */
+  #searched .searched-row {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px;
+    text-align: center;
+  }
+  /* line 201, app/assets/stylesheets/mobile.css.scss */
+  #searched .searched-row .item {
+    height: 300px;
+    margin-left: 1%;
+    margin-right: 1%;
+    min-width: 0px;
+    width: 48%;
+  }
+  /***********/
+  /* CATALOG */
+  /***********/
+  /* line 216, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content {
+    padding: 0;
+    width: auto;
+    min-width: 0px;
+  }
+  /* line 222, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .left-column {
+    width: 100%;
+    padding: 4px 0px 0px;
+    margin: 0px 0px 20px;
+    float: none;
+    border: 0;
+    font-size: 12px;
+  }
+  /* line 229, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .left-column p.menu-title {
+    text-align: center;
+  }
+  /* line 231, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .left-column p.menu-title a {
+    padding-left: 0px;
+  }
+  /* line 235, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .left-column ul li {
+    text-align: center;
+  }
+  /* line 240, app/assets/stylesheets/mobile.css.scss */
+  #banner {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 245, app/assets/stylesheets/mobile.css.scss */
+  .nav-up {
+    position: static;
+  }
+  /* line 250, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column {
+    width: 100%;
+    float: none;
+  }
+  /* line 253, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .nav-up-detail,
+  #catalog .content .right-column .nav-down-detail {
+    height: auto;
+  }
+  /* line 256, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .nav-up-detail .bread-crumb,
+  #catalog .content .right-column .nav-down-detail .bread-crumb {
+    width: 100%;
+    height: auto;
+  }
+  /* line 261, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .nav-up {
+    float: left;
+  }
+  /* line 264, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .nav-down {
+    float: left;
+  }
+  /* line 267, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-similar {
+    width: 100%;
+    margin: 0px 0px 0px;
+  }
+  /* line 270, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-similar h1 {
+    width: 100%;
+    padding: 0;
+    font-size: 25px;
+    line-height: 36px;
+  }
+  /* line 277, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row {
+    height: auto;
+    width: 100%;
+    margin: 0px 0px 0px;
+    text-align: center;
+  }
+  /* line 283, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .text p {
+    text-align: left;
+    width: 95%;
+    padding-left: 5%;
+  }
+  /* line 289, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product {
+    height: 300px;
+    margin-left: 1%;
+    margin-right: 1%;
+    min-width: 0px;
+    width: 48%;
+  }
+  /* line 295, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product div.text {
+    border-bottom: 1px solid #ececec;
+  }
+  /* line 297, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product div.text p {
+    text-align: center;
+    padding-left: 0;
+    width: 100%;
+  }
+  /* line 302, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product div.text .link {
+    width: 45%;
+    padding-left: 5%;
+  }
+  /* line 306, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product div.text .prize {
+    width: 45%;
+    padding-right: 5%;
+  }
+  /* line 313, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product-images {
+    border-top: 1px solid #ececec;
+    margin-top: 1px;
+    padding-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    float: none;
+  }
+  /* line 321, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product-images .main {
+    margin: auto;
+  }
+  /* line 324, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product-images .like {
+    padding-bottom: 3px;
+  }
+  /* line 328, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .row-params {
+    border-top: 0;
+  }
+  /* line 331, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product-description {
+    width: 100%;
+    /*margin: 0px 0px 30px;*/
+    border-top: 1px solid #ececec;
+    /*padding-top: 1px;*/
+    /*#catalog .content .right-column .product-row .product-description .params .color .icon*/
+  }
+  /* line 340, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product-description .params .color span {
+    float: none;
+    margin: 0;
+  }
+  /* line 344, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product-description .params .color .color-wrapper {
+    width: 200px;
+    height: 53px;
+    margin: 8px auto 4px;
+    text-align: center;
+  }
+  /* line 349, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product-description .params .color .color-wrapper .color-link-last {
+    margin-right: 0;
+  }
+  /* line 354, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product-description .params .size span {
+    float: none;
+    margin: 0px 0px 10px;
+  }
+  /* line 365, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product-description .add-to-card-eshop .items-count-input {
+    width: 152px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 370, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product-description .add-to-card-eshop .add-to-card-btn {
+    width: 90%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+  }
+  /* line 380, app/assets/stylesheets/mobile.css.scss */
+  #catalog .content .right-column .product-row .product-description #add-to-cart-link {
+    float: none;
+  }
+  /* line 387, app/assets/stylesheets/mobile.css.scss */
+  #basket-dd-mobile {
+    padding: 6px 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 21px;
+    color: #FFFFFF;
+    float: right;
+  }
+  /* line 396, app/assets/stylesheets/mobile.css.scss */
+  .mobile-login,
+  .mobile-account {
+    padding: 12px 0px;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    float: right;
+  }
+  /* line 404, app/assets/stylesheets/mobile.css.scss */
+  .mobile-login:hover,
+  .mobile-account:hover {
+    color: #FFFFFF;
+  }
+  /* line 410, app/assets/stylesheets/mobile.css.scss */
+  .search {
+    float: none;
+    display: block;
+    width: 90%;
+    margin: 10px 5% 0px;
+    padding: 0;
+    border: 0;
+  }
+  /* line 417, app/assets/stylesheets/mobile.css.scss */
+  .search .query {
+    color: #000000;
+    font-size: 15px;
+    line-height: 25px;
+    width: 90%;
+    height: 25px;
+    padding: 0;
+    background-color: #FFFFFF;
+    border: 0;
+    border: 1px solid #000000;
+    box-shadow: none;
+  }
+  /* line 430, app/assets/stylesheets/mobile.css.scss */
+  .search .search-icon {
+    width: 17px;
+    height: 17px;
+    float: right;
+    border: 0;
+    background: #FFFFFF;
+    background-image: url("search-icon-f196c67d846a4a5cd5fb84cfec42c2a83cd57aa4e3b766bec9a9c877a3d7d4de.png");
+    line-height: 17px;
+    margin: 3px 0px 0px 5px;
+    padding: 0;
+  }
+  /* line 444, app/assets/stylesheets/mobile.css.scss */
+  #subheader .container {
+    width: 100%;
+  }
+  /* line 448, app/assets/stylesheets/mobile.css.scss */
+  .account {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  /* line 451, app/assets/stylesheets/mobile.css.scss */
+  .account .form-wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  /* line 455, app/assets/stylesheets/mobile.css.scss */
+  .account input, .account textarea {
+    width: 96%;
+    margin: auto;
+  }
+  /* line 459, app/assets/stylesheets/mobile.css.scss */
+  .account .checkbox input {
+    width: auto;
+  }
+  /* line 462, app/assets/stylesheets/mobile.css.scss */
+  .account .form-wrapper .controls {
+    margin-left: 0px;
+    position: relative;
+    text-align: center;
+  }
+  /* line 468, app/assets/stylesheets/mobile.css.scss */
+  .account .form-wrapper .control-label {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 1%;
+    text-align: left;
+  }
+  /* line 474, app/assets/stylesheets/mobile.css.scss */
+  .account .nav-tabs {
+    border-bottom: 0px;
+  }
+  /* line 477, app/assets/stylesheets/mobile.css.scss */
+  .account .nav-tabs > .active > a, .account .nav-tabs > .active > a:hover {
+    border: 0px;
+  }
+  /* line 480, app/assets/stylesheets/mobile.css.scss */
+  .account #name {
+    /*padding-left: 5%;*/
+  }
+  /* line 483, app/assets/stylesheets/mobile.css.scss */
+  .account .orders-list-mobile {
+    background-color: #ececec;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  /* line 487, app/assets/stylesheets/mobile.css.scss */
+  .account .orders-list-mobile .on {
+    background: #DA1E48;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 9px 0px;
+  }
+  /* line 498, app/assets/stylesheets/mobile.css.scss */
+  .account-tabs > li,
+  .account-tabs > li.last {
+    width: 100%;
+  }
+  /* line 503, app/assets/stylesheets/mobile.css.scss */
+  .cart-fa-nav {
+    margin-bottom: 20px;
+  }
+  /* line 505, app/assets/stylesheets/mobile.css.scss */
+  .cart-fa-nav ul {
+    text-align: center;
+    width: 280px;
+    margin: auto;
+    position: relative;
+  }
+  /* line 512, app/assets/stylesheets/mobile.css.scss */
+  .cart-fa-nav ul li a:hover i {
+    color: #FFFFFF;
+  }
+  /* line 517, app/assets/stylesheets/mobile.css.scss */
+  .cart-fa-nav ul li a {
+    /*padding: 2% 80% 2% 3%;*/
+    padding: 7px 5px 7px 9px;
+  }
+  /* line 521, app/assets/stylesheets/mobile.css.scss */
+  .cart-fa-nav ul li.arrow {
+    padding: 11px 10px 15px;
+  }
+  /* line 524, app/assets/stylesheets/mobile.css.scss */
+  .mobile-center {
+    text-align: center;
+  }
+  /* line 529, app/assets/stylesheets/mobile.css.scss */
+  .mobile-basket .item {
+    background-color: #ececec;
+    padding-bottom: 9px;
+    position: relative;
+    margin: 0px auto 15px;
+    /*border: 1px solid black;*/
+    width: 90%;
+  }
+  /* line 537, app/assets/stylesheets/mobile.css.scss */
+  .mobile-basket .name {
+    color: #FFFFFF;
+    text-align: center;
+    background: #da1e48;
+    padding: 9px 0px;
+    margin-bottom: 9px;
+  }
+  /* line 543, app/assets/stylesheets/mobile.css.scss */
+  .mobile-basket .name a {
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+  /* line 547, app/assets/stylesheets/mobile.css.scss */
+  .mobile-basket .name .cart-item-pcode {
+    color: #FFFFFF;
+  }
+  /* line 550, app/assets/stylesheets/mobile.css.scss */
+  .mobile-basket .name .btn-remove-item-mobile {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #000000;
+  }
+  /* line 557, app/assets/stylesheets/mobile.css.scss */
+  .mobile-basket p {
+    text-align: center;
+  }
+  /* line 560, app/assets/stylesheets/mobile.css.scss */
+  .mobile-basket .color-link {
+    margin: 0px auto 9px;
+  }
+  /* line 563, app/assets/stylesheets/mobile.css.scss */
+  .mobile-basket .iconc {
+    float: none;
+  }
+  /* line 566, app/assets/stylesheets/mobile.css.scss */
+  .mobile-basket input {
+    width: auto;
+    min-width: 45px;
+    text-align: center;
+  }
+  /* line 571, app/assets/stylesheets/mobile.css.scss */
+  .mobile-basket .cart-quantity-stock {
+    display: block;
+  }
+  /* line 575, app/assets/stylesheets/mobile.css.scss */
+  .bold {
+    font-weight: 700;
+  }
+  /* line 578, app/assets/stylesheets/mobile.css.scss */
+  .cart-nav p {
+    width: 100%;
+  }
+  /* line 581, app/assets/stylesheets/mobile.css.scss */
+  .cart-nav p.next {
+    text-align: center;
+  }
+  /* line 583, app/assets/stylesheets/mobile.css.scss */
+  .cart-nav p.next input {
+    /*background: url("eshop/btnf-arrow-right.png") #da1e48 center right no-repeat;*/
+    padding-right: 10px;
+    /*font-family: Open sans, Arial, Helvetica, sans-serif;*/
+    width: 90%;
+    margin: auto;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+  }
+  /* line 593, app/assets/stylesheets/mobile.css.scss */
+  .cart-nav p.next a.cart-next-link {
+    width: 90%;
+    margin: auto;
+    float: none;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+  }
+  /* line 602, app/assets/stylesheets/mobile.css.scss */
+  .cart-amount {
+    padding-right: 5%;
+  }
+  /* line 606, app/assets/stylesheets/mobile.css.scss */
+  #global-voucher-code-bonus,
+  #credit-bonus,
+  #valentyn-bonus {
+    text-align: center;
+    width: 291px;
+    margin: auto;
+  }
+  /* line 614, app/assets/stylesheets/mobile.css.scss */
+  .ctabs > li,
+  .hu .ctabs > li {
+    width: 100%;
+    background: #FFFFFF;
+    /*a .icon-ok-sign {
+			display: inline !important;
+		}*/
+  }
+  /* line 621, app/assets/stylesheets/mobile.css.scss */
+  .ctabs > li.active,
+  .hu .ctabs > li.active {
+    background: url("_.html") #ECECEC no-repeat 10px center;
+    font-weight: bold;
+  }
+  /* line 624, app/assets/stylesheets/mobile.css.scss */
+  .ctabs > li.active a,
+  .hu .ctabs > li.active a {
+    background: none;
+  }
+  /* line 628, app/assets/stylesheets/mobile.css.scss */
+  .ctabs > li:hover,
+  .hu .ctabs > li:hover {
+    background-color: #ECECEC;
+  }
+  /* line 631, app/assets/stylesheets/mobile.css.scss */
+  .ctabs > li a,
+  .hu .ctabs > li a {
+    color: #000000;
+  }
+  /* line 637, app/assets/stylesheets/mobile.css.scss */
+  .nav-tabs > .active > a:hover {
+    background: url("_.html") #ECECEC no-repeat 10px center;
+  }
+  /* line 641, app/assets/stylesheets/mobile.css.scss */
+  .nav-tabs > .active > a,
+  .nav-tabs > .active > a:hover {
+    border: 0px;
+  }
+  /* line 646, app/assets/stylesheets/mobile.css.scss */
+  .payu-style td {
+    border-bottom-width: 0px;
+  }
+  /* line 650, app/assets/stylesheets/mobile.css.scss */
+  .tab-content-dp .cart-transport {
+    /*margin-top: 20px;*/
+    height: 120px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+  }
+  /* line 658, app/assets/stylesheets/mobile.css.scss */
+  .tab-content-dp .cart-payment-types {
+    width: 100%;
+    float: none;
+  }
+  /* line 663, app/assets/stylesheets/mobile.css.scss */
+  .tab-content-dp #tab .cart-payment-types table.payu-style,
+  .tab-content-dp .cart-payment-types table.payu-style,
+  .tab-content-dp #tab3 .cart-payment-types table.payu-style {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*margin: 23px 80px 0px 0px;*/
+    /*float: left;*/
+  }
+  /* line 673, app/assets/stylesheets/mobile.css.scss */
+  .tab-content-dp #tab .cart-payment,
+  .tab-content-dp .cart-payment,
+  .tab-content-dp #tab3 .cart-payment {
+    /*height: 600px;*/
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+  }
+  /* line 682, app/assets/stylesheets/mobile.css.scss */
+  .tab-content-dp #tab3 .cart-payment {
+    margin-top: 0;
+  }
+  /* line 685, app/assets/stylesheets/mobile.css.scss */
+  .tab-content-dp .cart-transport-types {
+    width: 100%;
+  }
+  /* line 687, app/assets/stylesheets/mobile.css.scss */
+  .tab-content-dp .cart-transport-types table {
+    width: 100%;
+  }
+  /* line 692, app/assets/stylesheets/mobile.css.scss */
+  #tab3 .cart-transport {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  /* line 698, app/assets/stylesheets/mobile.css.scss */
+  #tab3 .payu-style td {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #F2F2F2;
+  }
+  /* line 704, app/assets/stylesheets/mobile.css.scss */
+  #page .content {
+    max-width: 100%;
+  }
+  /* line 707, app/assets/stylesheets/mobile.css.scss */
+  #payu_ .table-payu {
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  /* line 712, app/assets/stylesheets/mobile.css.scss */
+  .cart-transport-title, .cart-payment-title {
+    height: auto;
+  }
+  /* line 715, app/assets/stylesheets/mobile.css.scss */
+  #payu_ .table-payu td.icon {
+    width: auto !important;
+  }
+  /* line 718, app/assets/stylesheets/mobile.css.scss */
+  .edit-cart .nav-tabs {
+    border-bottom: 0px;
+  }
+  /* line 721, app/assets/stylesheets/mobile.css.scss */
+  .edit-cart .nav-tabs > li > a {
+    border: 0;
+  }
+  /* line 727, app/assets/stylesheets/mobile.css.scss */
+  #delivery-informations input[type="checkbox"],
+  #delivery-informations input[type="radio"],
+  .registration input[type="checkbox"],
+  .registration input[type="radio"] {
+    float: none;
+  }
+  /* line 731, app/assets/stylesheets/mobile.css.scss */
+  #delivery-informations .form-wrapper,
+  #delivery-informations .form-horizontal,
+  .registration .form-wrapper,
+  .registration .form-horizontal {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  /* line 736, app/assets/stylesheets/mobile.css.scss */
+  #delivery-informations .form-wrapper .reminder,
+  #delivery-informations .form-horizontal .reminder,
+  .registration .form-wrapper .reminder,
+  .registration .form-horizontal .reminder {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px !important;
+  }
+  /* line 741, app/assets/stylesheets/mobile.css.scss */
+  #delivery-informations .form-wrapper h2,
+  #delivery-informations .form-horizontal h2,
+  .registration .form-wrapper h2,
+  .registration .form-horizontal h2 {
+    margin: 20px 0px 20px;
+  }
+  /* line 744, app/assets/stylesheets/mobile.css.scss */
+  #delivery-informations .form-wrapper .controls,
+  #delivery-informations .form-horizontal .controls,
+  .registration .form-wrapper .controls,
+  .registration .form-horizontal .controls {
+    margin-left: 0px;
+  }
+  /* line 747, app/assets/stylesheets/mobile.css.scss */
+  #delivery-informations .form-wrapper input, #delivery-informations .form-wrapper textarea,
+  #delivery-informations .form-horizontal input,
+  #delivery-informations .form-horizontal textarea,
+  .registration .form-wrapper input,
+  .registration .form-wrapper textarea,
+  .registration .form-horizontal input,
+  .registration .form-horizontal textarea {
+    width: 96%;
+    margin: auto;
+  }
+  /* line 751, app/assets/stylesheets/mobile.css.scss */
+  #delivery-informations .form-wrapper .checkbox,
+  #delivery-informations .form-horizontal .checkbox,
+  .registration .form-wrapper .checkbox,
+  .registration .form-horizontal .checkbox {
+    padding-left: 0;
+  }
+  /* line 754, app/assets/stylesheets/mobile.css.scss */
+  #delivery-informations .form-wrapper input[type="checkbox"],
+  #delivery-informations .form-wrapper input[type="radio"],
+  #delivery-informations .form-horizontal input[type="checkbox"],
+  #delivery-informations .form-horizontal input[type="radio"],
+  .registration .form-wrapper input[type="checkbox"],
+  .registration .form-wrapper input[type="radio"],
+  .registration .form-horizontal input[type="checkbox"],
+  .registration .form-horizontal input[type="radio"] {
+    width: auto;
+  }
+  /* line 758, app/assets/stylesheets/mobile.css.scss */
+  #delivery-informations .form-wrapper .control-group,
+  #delivery-informations .form-horizontal .control-group,
+  .registration .form-wrapper .control-group,
+  .registration .form-horizontal .control-group {
+    margin-bottom: 0;
+  }
+  /* line 761, app/assets/stylesheets/mobile.css.scss */
+  #delivery-informations .form-wrapper .cg-note,
+  #delivery-informations .form-horizontal .cg-note,
+  .registration .form-wrapper .cg-note,
+  .registration .form-horizontal .cg-note {
+    margin-top: 15px;
+  }
+  /* line 764, app/assets/stylesheets/mobile.css.scss */
+  #delivery-informations .form-wrapper .cg-state,
+  #delivery-informations .form-horizontal .cg-state,
+  .registration .form-wrapper .cg-state,
+  .registration .form-horizontal .cg-state {
+    margin-bottom: 15px;
+  }
+  /* line 767, app/assets/stylesheets/mobile.css.scss */
+  #delivery-informations .form-wrapper .cg-contacts .controls,
+  #delivery-informations .form-horizontal .cg-contacts .controls,
+  .registration .form-wrapper .cg-contacts .controls,
+  .registration .form-horizontal .cg-contacts .controls {
+    text-align: center;
+  }
+  /* line 773, app/assets/stylesheets/mobile.css.scss */
+  #page h1.login-title {
+    text-align: center;
+    margin: 20px 0px 20px;
+  }
+  /* line 778, app/assets/stylesheets/mobile.css.scss */
+  .summary-col {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    float: none;
+  }
+  /* line 784, app/assets/stylesheets/mobile.css.scss */
+  .summary-options {
+    width: 90%;
+    float: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 20px 0px 60px;
+  }
+  /* line 791, app/assets/stylesheets/mobile.css.scss */
+  .mwrap {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+  /* line 797, app/assets/stylesheets/mobile.css.scss */
+  #credit-bonus,
+  #global-voucher-code-bonus,
+  #valentyn-bonus {
+    height: 100px;
+    margin-top: 20px;
+  }
+  /* line 802, app/assets/stylesheets/mobile.css.scss */
+  #credit-bonus .cart-voucher-code-text,
+  #global-voucher-code-bonus .cart-voucher-code-text,
+  #valentyn-bonus .cart-voucher-code-text {
+    font-size: 13px;
+    /* margin: 5px 8px 35px 140px; */
+    margin: 3px 5px 0px 0px;
+    /* width: 120px; */
+    width: 100%;
+    float: none;
+  }
+  /* line 810, app/assets/stylesheets/mobile.css.scss */
+  #credit-bonus .cart-voucher-code-input,
+  #global-voucher-code-bonus .cart-voucher-code-input,
+  #valentyn-bonus .cart-voucher-code-input {
+    float: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  /* line 815, app/assets/stylesheets/mobile.css.scss */
+  #credit-bonus #add-to-cart-link,
+  #global-voucher-code-bonus #add-to-cart-link,
+  #valentyn-bonus #add-to-cart-link {
+    float: none;
+    text-align: center;
+    width: 90px;
+    margin: auto;
+  }
+  /* line 820, app/assets/stylesheets/mobile.css.scss */
+  #credit-bonus #add-to-cart-link .add-to-card-btn,
+  #global-voucher-code-bonus #add-to-cart-link .add-to-card-btn,
+  #valentyn-bonus #add-to-cart-link .add-to-card-btn {
+    margin: 0px;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+  }
+  /* line 829, app/assets/stylesheets/mobile.css.scss */
+  .login-form {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  /* line 833, app/assets/stylesheets/mobile.css.scss */
+  .login-form h2 {
+    margin: 20px 0px 20px;
+  }
+  /* line 836, app/assets/stylesheets/mobile.css.scss */
+  .login-form .controls {
+    text-align: center;
+    margin-left: 0px;
+  }
+  /* line 839, app/assets/stylesheets/mobile.css.scss */
+  .login-form .controls input {
+    width: 96%;
+    margin: auto;
+  }
+  /* line 844, app/assets/stylesheets/mobile.css.scss */
+  .login-form .actions {
+    text-align: center;
+  }
+  /* line 847, app/assets/stylesheets/mobile.css.scss */
+  .login-form .send {
+    width: 90%;
+  }
+  /* line 851, app/assets/stylesheets/mobile.css.scss */
+  h1,
+  #page h1,
+  #store-locator h1 {
+    text-align: center;
+    margin: 20px 0px 20px;
+  }
+  /* line 859, app/assets/stylesheets/mobile.css.scss */
+  #page .content .detail,
+  #store-locator .content .detail {
+    margin: 20px 0px;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  /* line 866, app/assets/stylesheets/mobile.css.scss */
+  .nav-up,
+  .nav-down {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: auto;
+    min-height: 43px;
+    float: none;
+  }
+  /* line 874, app/assets/stylesheets/mobile.css.scss */
+  .nav-up .breadcrumb,
+  .nav-down .breadcrumb {
+    width: 100%;
+    height: auto;
+  }
+  /*.nav-down {
+		float: left;
+	}*/
+  /* line 882, app/assets/stylesheets/mobile.css.scss */
+  .search {
+    text-align: center;
+  }
+  /* line 885, app/assets/stylesheets/mobile.css.scss */
+  #store-locator .span7 {
+    width: 100%;
+  }
+  /* line 888, app/assets/stylesheets/mobile.css.scss */
+  #store-locator #map_canvas {
+    width: auto;
+  }
+  /* line 891, app/assets/stylesheets/mobile.css.scss */
+  #store-locator .results .store {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  /* line 896, app/assets/stylesheets/mobile.css.scss */
+  .modal {
+    top: 10%;
+    /*left: 60%;*/
+    /*right: 10px;*/
+    /*width: 95% !important;	*/
+  }
+}
+
+@media (max-width: 979px) and (max-width: 979px) {
+  /* line 905, app/assets/stylesheets/mobile.css.scss */
+  #new-year-action .product-row {
+    height: auto;
+  }
+  /* line 908, app/assets/stylesheets/mobile.css.scss */
+  #new-year-action .product-row-top .product,
+  #new-year-action .product {
+    margin: 40px auto;
+    float: none;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 979px) {
+  /* line 917, app/assets/stylesheets/mobile.css.scss */
+  .modal {
+    top: 50%;
+    /*text-align: left;*/
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 925, app/assets/stylesheets/mobile.css.scss */
+  .modal .modal-footer .btn {
+    display: block;
+    margin: auto;
+  }
+  /* line 929, app/assets/stylesheets/mobile.css.scss */
+  .modal .modal-footer .btn-primary {
+    margin-top: 8px;
+  }
+  /* line 934, app/assets/stylesheets/mobile.css.scss */
+  #active-slimmer-action .product-row {
+    height: auto;
+    width: 100%;
+    /*width: 890px;*/
+    /*margin: 10px auto 0px;*/
+  }
+  /* line 940, app/assets/stylesheets/mobile.css.scss */
+  #active-slimmer-action .product {
+    /*margin: 0px 35px 0px 0px;*/
+    /*width: 166px;*/
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  /* line 947, app/assets/stylesheets/mobile.css.scss */
+  #active-slimmer-action .add-to-card-btn {
+    margin: 15px auto 60px;
+  }
+  /* line 950, app/assets/stylesheets/mobile.css.scss */
+  #active-slimmer-action .color,
+  #active-slimmer-action .size,
+  #active-slimmer-action .price {
+    margin: auto;
+  }
+}
